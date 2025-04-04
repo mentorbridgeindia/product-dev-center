@@ -13,6 +13,9 @@ const fadeIn = keyframes`
   }
 `;
 
+const isDesktop = window.innerWidth > 1200;
+const isMobile = window.innerWidth < 600;
+
 const slideIn = keyframes`
   from {
     opacity: 0;
@@ -104,7 +107,7 @@ const BreadcrumbCurrent = styled.span`
 `;
 
 const Container = styled.div`
-  padding: 2rem;
+  padding: ${isMobile ? "0" : "2rem"};
   margin: 0 auto;
   min-height: 100vh;
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
@@ -114,7 +117,7 @@ const Container = styled.div`
 const ProfileCard = styled.div`
   background: rgba(255, 255, 255, 0.05);
   border-radius: 24px;
-  padding: 2.5rem;
+  padding: ${isMobile ? "0.5rem" : "2.5rem"};
   margin-bottom: 2rem;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
@@ -284,6 +287,7 @@ const SocialLinksContainer = styled.div`
   display: flex;
   gap: 1rem;
   margin-top: 1.5rem;
+  justify-content: ${!isDesktop ? "center" : "flex-start"};
 `;
 
 const SocialLink = styled.a`
@@ -312,6 +316,7 @@ const Email = styled.p`
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  justify-content: ${!isDesktop ? "center" : "flex-start"};
 
   &::before {
     content: "✉";
@@ -358,11 +363,16 @@ export const Profile = () => {
   const profileData = ProfilesList.find((profile) => profile.id === params.id);
 
   const downloadResume = () => {
-    const url = profileData?.resumeLink;
-    if (url) {
-      window.open(url, '_blank');
+    if (profileData) {
+      const url =
+        "https://wfkq0nguanh0273r.public.blob.vercel-storage.com/mentorbridge-pics/" +
+        profileData.id +
+        ".pdf";
+      if (url) {
+        window.open(url, "_blank");
+      }
     }
-  }
+  };
 
   return profileData ? (
     <div>
@@ -381,17 +391,21 @@ export const Profile = () => {
             <img
               src="https://ssmiet.ac.in/images/logo.png"
               alt="ssmiet"
-              className="logo-sm"
+              className="logo-sm d-none d-lg-block"
             />
             <img
               src="https://www.mentorbridge.in/_next/static/media/icon-logo-horizontal.2500857b.svg"
-              className="logo-sm" alt="mentorbridge"
+              className="logo-sm d-none d-md-block"
+              alt="mentorbridge"
             />
           </div>
         </BreadcrumbContainer>
         <ProfileCard>
           <Header>
-            <ProfileImage src={profileData.picture} alt={profileData.name} />
+            <ProfileImage
+              src={`https://wfkq0nguanh0273r.public.blob.vercel-storage.com/mentorbridge-pics/${profileData.id}.${profileData.picture}`}
+              alt={profileData.name}
+            />
             <HeaderInfo>
               <div
                 style={{
@@ -399,6 +413,7 @@ export const Profile = () => {
                   justifyContent: "space-between",
                   alignItems: "center",
                   marginBottom: "1rem",
+                  flexDirection: isDesktop ? "row" : "column",
                 }}
               >
                 <Name>{profileData.name}</Name>
@@ -458,7 +473,9 @@ export const Profile = () => {
                   display: "flex",
                   justifyContent: "space-between",
                   alignItems: "center",
-                  marginBottom: "1rem",
+                  marginBottom: isMobile ? "2rem" : "1rem",
+                  flexDirection: isMobile ? "column" : "row",
+                  gap: "2rem",
                 }}
               >
                 <Company>{profileData.mentorBridgeExp.company}</Company>
@@ -494,7 +511,9 @@ export const Profile = () => {
                     display: "flex",
                     justifyContent: "space-between",
                     alignItems: "center",
-                    marginBottom: "1rem",
+                    marginBottom: isMobile ? "2rem" : "1rem",
+                    flexDirection: isMobile ? "column" : "row",
+                    gap: "2rem",
                   }}
                 >
                   <Company>{exp.company}</Company>

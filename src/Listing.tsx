@@ -15,6 +15,9 @@ interface Theme {
   };
 }
 
+const isDesktop = window.innerWidth > 1024;
+const isMobile = window.innerWidth < 474;
+
 declare module "styled-components" {
   export interface DefaultTheme extends Theme {}
 }
@@ -50,9 +53,9 @@ const pulse = keyframes`
 `;
 
 const Container = styled.div`
-  max-width: 90%;
+  max-width: ${isDesktop ? "90%" : "100%"};
   margin: 0 auto;
-  padding: 2rem;
+  padding: ${isDesktop ? "2rem" : "0"};
   margin-bottom: 3rem;
   min-height: 100vh;
 `;
@@ -176,7 +179,10 @@ const FilterSelect = styled.select`
 const PersonItem: React.FC<{ person: ProfileData }> = ({ person }) => (
   <Card>
     <PersonCard>
-      <PersonImage src={person.picture} alt={person.name} />
+      <PersonImage
+        src={`https://wfkq0nguanh0273r.public.blob.vercel-storage.com/mentorbridge-pics/${person.id}.${person.picture}`}
+        alt={person.name}
+      />
       <InfoContainer href={"/" + person.id}>
         <Name>{person.name}</Name>
         <Role>{person.role}</Role>
@@ -218,7 +224,14 @@ export const Listing: React.FC = () => {
       </div>
       <div className="list">
         <SearchContainer>
-          <div style={{ display: "flex", gap: "1rem", marginBottom: "1rem" }}>
+          <div
+            style={{
+              display: "flex",
+              gap: "1rem",
+              marginBottom: "1rem",
+              flexDirection: isDesktop ? "row" : "column",
+            }}
+          >
             <SearchInput
               type="text"
               placeholder="Search by name..."
