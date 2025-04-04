@@ -697,7 +697,15 @@ export const ProfilesList: ProfileData[] = [
         "<ul><li>I gained extensive hands-on experience in JavaScript, React.js, and React Native, contributing significantly to the development of a TypeScript-based React Native application named Stupro.</li><li>I was responsible for creating multiple pages and modules, including onboarding, Daily Challenges, Profile, and Leaderboard pages, while implementing key features such as carousels, async storage, animations, and navigation.</li><li> For the onboarding page, I utilized FlatList with default animations and pagination to enhance user experience.</li><li> On the Daily Challenges page, I mapped tasks dynamically to create an engaging interface.</li><li> The Profile page was designed with a card-style layout to display user information, streak details, and access to change password and preferences pages.</li><li> The Leaderboard page showcased a list of top performers based on points earned through daily challenges.</li><li> I leveraged the react-native-reanimated-carousel package to implement a carousel on the home page and used Async Storage for offline storage of profile details and user credentials.</li><li> Navigation across the application was seamlessly handled using React Native Navigation, while animations were enhanced with the React Native Reanimated package to improve user experience.</li><li> Additionally, I collaborated closely with the team to develop and refine application features, actively participating in team discussions, problem-solving sessions, and code reviews in an agile environment.</li><li> My role also involved using Figma to design sitemaps and structure multiple pages, ensuring a seamless and intuitive user experience.</li><li> This experience allowed me to grow as a developer, fostering collaboration, continuous learning, and a strong focus on delivering high-quality solutions.</li></ul>",
       website: "http://stupro.info",
     },
-    experience: [],
+    experience: [
+      {
+        company: "Break Time Tv",
+        role: "Mobile App Developer",
+        summary:
+          "<ul><li>Break Time Tv - Live TV Streaming App is a feature-rich React Native application designed to provide a seamless streaming experience. The app allows users to browse and watch world free live TV channels, switch between different languages, and access high-quality video content .</li></ul>",
+        website: "https://github.com/SBKrishnan/BreakTimeTv",
+      },
+    ],
     skillSets: [
       "JavaScript",
       "React",
@@ -958,28 +966,48 @@ export const ProfilesList: ProfileData[] = [
     role: "Front-End Engineer",
     email: "subashnatrayan6@gmail.com",
     summary:
-      "<ul><li>My role involves strategic planning, product development, and team coordination to ensure the platform meets industry standards and user expectations.</li><li>My journey started with a fascination for how technology shapes our world, and before I knew it, I was co-founding startups like ProtecWatch and Stupro, leading front-end teams, and building solutions that bridge the gap between ideas and execution.</li><li>Whether it's crafting seamless UI/UX, integrating machine learning into sign language translator hardware, or tackling real-world problems through hackathons, I thrive on challenges that push me beyond my limits.</li></ul>",
+      "<ul><li>My role involves strategic planning, product development, and team coordination to ensure the platform meets industry standards and user expectations.</li><li>My journey started with a fascination for how technology shapes our world, and before I knew it, I was co-founding startups like SecuroSphere and Stupro, leading front-end teams, and building solutions that bridge the gap between ideas and execution.</li><li>Whether it's crafting seamless UI/UX, integrating machine learning into sign language translator hardware, or tackling real-world problems through hackathons, I thrive on challenges that push me beyond my limits.</li></ul>",
     experience: [
       {
         company: "Virtual Tech Services",
         role: "AI/ML Intern",
         summary:
-          "<ul><li>My AI/ML internship at Virtual Tech Services, I was involved in building and optimizing machine learning models for real-world applications.</li><li>Gained hands-on experience in data preprocessing, analyzing large datasets, and implementing deep learning techniques like CNNs and transformers to improve model performance.</li><li>Worked on deploying AI models in production environments, ensuring seamless integration and practical impact.</li></ul>",
+          "<ul><li>During my AI/ML internship at Virtual Tech Services, I was actively involved in building and optimizing machine learning models for real-world applications.</li><li>I gained hands-on experience in data preprocessing, analyzing large datasets, and implementing deep learning techniques like CNNs and transformers to improve model performance.</li><li>Additionally, I worked on deploying AI models in production environments, ensuring seamless integration and practical impact.</li><li>This internship provided me with valuable exposure to cutting-edge AI technologies and real-world problem-solving.</li></ul>",
         website: "https://virtualtechz.in/",
       },
       {
         company: "Tarcin Robotics",
         role: "Product Developer",
         summary:
-          "<ul><li>As a Product Developer at Tarcin Robotics, I was involved in designing and developing innovative robotic solutions tailored for automation and real-world applications.</li><li>Worked on integrating hardware and software components to enhance robotic functionality, ensuring seamless interaction between sensors, actuators, and control systems.</li><li>Collaborated with cross-functional teams to optimize product performance, troubleshoot issues, and contribute to the overall improvement of robotic prototypes, gaining hands-on experience in both product development and real-world implementation.</li></ul>",
+          "<ul><li>As a Product Developer at Tarcin Robotics, Madurai, I was involved in designing and developing innovative robotic solutions tailored for automation and real-world applications.</li><li>I worked on integrating hardware and software components to enhance robotic functionality, ensuring seamless interaction between sensors, actuators, and control systems.</li><li>Additionally, I collaborated with cross-functional teams to optimize product performance, troubleshoot issues, and contribute to the overall improvement of robotic prototypes, gaining hands-on experience in both product development and real-world implementation.</li></ul>",
         website: "https://tarcinrobotics.in/",
+      },
+      {
+        company: "Acmegrade",
+        role: "Cybersecurity Intern",
+        summary:
+          "<ul><li>Conducted vulnerability assessments and penetration testing on web applications to identify security flaws and recommend mitigation strategies.</li><li>Gained hands-on experience in network security, encryption techniques, and implementing security measures to protect sensitive data.</li><li>Explored ethical hacking methodologies, working with tools like Kali Linux, Metasploit, and Wireshark to analyze and strengthen system defenses.</li></ul>",
+        website: "https://acmegrade.com/",
+      },
+      {
+        company: "Project Contest Innovation LLP",
+        role: "Cybersecurity Intern",
+        summary:
+          "<ul><li>Worked on real-world cybersecurity projects, identifying threats and implementing security protocols to safeguard digital assets.</li><li>Conducted security audits and compliance checks to ensure systems adhered to industry standards and best practices.</li><li>Developed secure authentication mechanisms and enhanced firewall configurations to prevent unauthorized access and cyber threats.</li></ul>",
+        website: "https://projectcontest.com/",
+      },
+      {
+        company: "ProtecWatch",
+        role: "Co-Founder",
+        summary:
+          "<ul><li>As a Co-Founder of ProtecWatch, I played a pivotal role in developing a Security Watch for women safetey and cutting-edge sign language translator hardware solution.</li><li>My responsibilities included designing the hardware architecture, integrating machine learning algorithms for real-time translation, and ensuring seamless communication between the device and user interfaces.</li><li>This project not only showcased my technical skills but also highlighted my commitment to creating inclusive technology that bridges communication gaps.</li></ul>",
       },
     ],
     mentorBridgeExp: {
       company: "StuPro",
-      role: "Co-Founder | Lead Front-End Development Engineer",
+      role: "Co-Founder | Front-End Development Engineer",
       summary:
-        "<ul><li>As a Co-Founder of the Stupro App, I lead the development of an innovative platform designed to assist students in transitioning from academia to professional careers. My role involves strategic planning, product development, and team coordination to ensure the platform meets industry standards and user expectations.</li><li>I am responsible for creating modules such as DeepLink, ArticleShare, ShareWithArticle, Push Notifications, Swipe Card creation, Text-to-Speech conversion, PDF conversion, NativeBase package integration, Firebase configuration, animation, navigation, and API integration.</li><li>I am also part of the team developing Stupro's landing page.</li></ul>",
+        "<ul><li>As a Co-Founder of Stupro App, I lead the development of an innovative platform designed to assist students in transitioning from academia to professional careers. My role involves strategic planning, product development, and team coordination to ensure the platform meets industry standards and user expectations.</li><li>I am also responsible for creating modules such as DeepLink, ArticleShare, ShareWithArticle, Push Notification, Swipe Card creation, Text-to-Speech conversion, Conversion to PDF, NativeBase package integration, Firebase configuration, animation, navigation, and API integration.</li></ul>",
       website: "http://stupro.info",
     },
     skillSets: [
@@ -997,10 +1025,97 @@ export const ProfilesList: ProfileData[] = [
       "GitHub",
       "CI/CD",
     ],
-    inspirations: ["Nikola Tesla", "Akihiko Kayaba"],
+    inspirations: ["APJ Abdul Kalam", "Peter Thiel"],
     socialLinks: {
       linkedIn: "https://linkedin.com/in/subash-natrayan-r-m",
       gitHub: "https://github.com/subashnatrayan",
+    },
+  },
+  {
+    id: "sivasankari",
+    name: "Sivasankari",
+    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    role: "Backend dev Engineer",
+    email: "sivasankarikannan16@gmail.com",
+    summary:
+      "<ul><li>Dynamic Java Backend Developer with extensive experience in crafting robust applications and systems.</li><li>Committed to continuous learning and professional growth, aiming to excel in the Java development landscape.</li></ul>",
+    experience: [
+      {
+        company: "Profenna Technology",
+        role: "Embedded IOT Engineer",
+        summary:
+          "<ul><li>Gaining hands-on experience in IoT systems, sensor integration, and microcontroller programming..</li><li>Developed and implemented real-time embedded solutions for automation and smart devices.</li></ul>",
+      },
+      {
+        company: "RailNet",
+        role: "RailNet Internship Trainee",
+        summary:
+          "<ul><li>Completed an internship at RailNet, gaining insights into the fundamentals of railway operations and infrastructure.</li><li>Learned about railway functionalities, signaling systems, and network management.</li></ul>",
+      },
+    ],
+    mentorBridgeExp: {
+      company: "SecuroSphere",
+      role: "Co-Founder | Backend Dev Engineer",
+      summary:
+        "<ul><li>In the role of Java Backend Developer at Mentor Bridge, expertise in building robust backend solutions using Java and Spring Boot is applied.</li><li>This position involves designing and implementing RESTful APIs to support frontend functionalities while ensuring high performance and responsiveness.</li></ul>",
+      website: "https://www.securosphere.in/",
+    },
+    skillSets: [
+      "Java",
+      "Springboot",
+      "MongoDB",
+      "SQL",
+      "AWS",
+      "Docker",
+      "CI/CD",
+    ],
+    inspirations: ["APJ Abdul Kalam", "Virat Kholi"],
+    socialLinks: {
+      linkedIn: "https://www.linkedin.com/in/sivasankari-k-3643b8266",
+      gitHub: "https://github.com/sivasankari-kannan",
+    },
+  },
+  {
+    id: "Vijaykarthik",
+    name: "Vijaykarthik S",
+    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    role: "Frontend Dev Engineer",
+    email: "vijaykarthik.cse2025@gmail.com",
+    summary:
+      "<ul><li>I am a passionate Full Stack Developer with experience in building web applications using the MERN stack.</li><li>I have worked on various projects, including web applications, and I enjoy creating user-friendly and responsive web apps.</li><li>My expertise includes JavaScript, React, Node.js, Express, and MongoDB, ensuring efficient and high-performance applications.</li><li>I am continuously learning and keeping up with the latest trends in full-stack development.</li></ul>",
+    experience: [
+      {
+        company: "Seval Software Solutions",
+        role: "Frontend Dev Engineer",
+        summary:
+          "<ul><li>Developed an e-commerce website using React and Tailwind CSS as per company requirements.</li><li>Designed and implemented responsive UI components for an enhanced user experience.</li><li>Documented front-end features for better maintainability and future updates.</li></ul>",
+      },
+    ],
+    mentorBridgeExp: {
+      company: "StubLab",
+      role: "Co-Founder | Frontend Dev Engineer",
+      summary:
+        "<ul><li>Built an interactive application page where users can enter their details with proper form validation using Yup.</li><li>Connected frontend with APIs to ensure smooth data flow and real-time updates.</li><li>Redesigned the landing page to enhance user engagement and aesthetics, ensuring a seamless experience across devices.</li></ul>",
+      website: "https://stublab.in/",
+    },
+    skillSets: [
+      "Java",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "Tailwind CSS",
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Git/GitHub",
+    ],
+    inspirations: ["Elon Musk", "Virat Kohli"],
+    socialLinks: {
+      linkedIn: "https://www.linkedin.com/in/vijaykarthik-s-3b3930287/",
+      gitHub: "https://github.com/Vijaykarthik1",
+      website: "https://portfolio-vijaykarthik-1.web.app/",
     },
   },
 ];
