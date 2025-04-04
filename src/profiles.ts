@@ -924,7 +924,7 @@ export const ProfilesList: ProfileData[] = [
 
     name: "Subash Natrayan",
 
-    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    picture: "jpg",
 
     role: "Frontend Dev Engineer",
 
