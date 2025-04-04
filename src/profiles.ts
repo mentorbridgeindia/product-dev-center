@@ -5,7 +5,7 @@ export const ProfilesList: ProfileData[] = [
     id: "nagapriya",
     name: "Nagapriya",
     picture: "https://randomuser.me/api/portraits/men/1.jpg",
-    role: "Backend Engineer",
+    role: "Backend Dev Engineer",
     email: "nagapriya.sivabalan@gmail.com",
     summary:
       "<ul><li>I am an enthusiastic learner with a strong drive to explore and adapt to new technologies.</li><li>I believe in learning by doing and have consistently taken up tasks with dedication.</li><li>I’ve been actively working with backend technologies like Java and Spring Boot, and I’m eager to expand my knowledge even further.</li><li>I am passionate about contributing to meaningful work, constantly upgrading my skills, and giving my best in every opportunity I get.</li></ul>",
@@ -43,7 +43,7 @@ export const ProfilesList: ProfileData[] = [
     id: "pavithraharini",
     name: "Pavithraharini S",
     picture: " ",
-    role: "Full stack developer",
+    role: "Backend Dev engineer",
     email: "pavithraharini123@gmail.com",
     summary:
       "<ul><li>Developed the product with the Easy user interfaces </li><li>Analysed and developed the easy managing facility </li></ul>",
@@ -75,7 +75,7 @@ export const ProfilesList: ProfileData[] = [
     id: "Jeyashree",
     name: "Jeyashree S",
     picture: "https://randomuser.me/api/portraits/men/1.jpg",
-    role: "Frontend Engineer",
+    role: "Frontend Dev Engineer",
     email: "jeyashreeselvan9@gmail.com",
     summary:
       "<ul><li>I am currently pursuing final year of B.E. in Computer Science and Engineering at SSMIET. I am a passionate front-end developer with experience in building responsive and user-friendly web applications.</li><li>I am the Co-founder and Front-End Developer of Securosphere. My core areas of interest lie in Front-End Development and UI/UX Design. I am proficient in technologies such as HTML, CSS, JavaScript, React.js, Bootstrap, and TypeScript. Additionally, I have strong skills in UI design, with hands-on experience using design tools like Figma and Canva.</li></ul>",
@@ -114,7 +114,7 @@ export const ProfilesList: ProfileData[] = [
 
     picture: "karpagam.jpg",
 
-    role: " UI&UX DESIGNER",
+    role: " UI/UX DESIGNER",
 
     email: " mkarpagam025@gmail.com ",
 
@@ -210,7 +210,7 @@ export const ProfilesList: ProfileData[] = [
     id: "kajalakshmi",
     name: "Kajalakshmi M",
     picture: "https://drive.google.com/uc?id=1jJtYV3FU_51vXMLwzB-b6lf-E_B9Tf3g",
-    role: "Frontend Engineer",
+    role: "Frontend Dev Engineer",
     email: "mkajalakshmi@gmail.com",
     summary:
       "<ul><li>I'm a passionate Frontend Developer and Co-founder of SecuroSphere, currently pursuing my Bachelor's degree in Computer Science Engineering at SSMIET.</li><li>Specialized in building scalable, responsive user interfaces using React.js and Bootstrap, focusing on performance and accessibility.</li><li>Beyond development and design, I also created and presented the pitch deck for SecuroSphere, helping effectively communicate our product vision to internal teams, college management, and potential collaborators.</li></ul>",
@@ -249,7 +249,7 @@ export const ProfilesList: ProfileData[] = [
     id: "viji",
     name: "Vijayalakshmi T",
     picture: "https://randomuser.me/api/portraits/men/1.jpg",
-    role: "Front end Engineer",
+    role: "Frontend Dev Engineer",
     email: "vijayalakshmifsd@gmail.com",
     summary:
       "<ul><li>Designed product interfaces and user flows, contributing to the overall user experience of the platform.</li><li>Created API documentation to facilitate easy understanding and implementation.</li></ul>",
@@ -290,7 +290,7 @@ export const ProfilesList: ProfileData[] = [
     },
   },
   {
-    id: "kiruthika",
+    id: "Kiruthika_G",
     name: "Kiruthika G",
     picture: "",
     role: "Frontend Dev Engineer",
@@ -330,10 +330,10 @@ export const ProfilesList: ProfileData[] = [
     },
   },
   {
-    id: "Nithya_Bala",
+    id: "Nithya_Bala_M",
     name: "Nithya Bala M",
     picture: "https://randomuser.me/api/portraits/men/1.jpg",
-    role: "Front end Engineer",
+    role: "Frontend Dev Engineer",
     email: "nithyabala02062004@gmail.com",
     summary:
       "<ul><li>Frontend Developer with a good understanding of HTML, CSS, and React.js. Skilled in building responsive web designs and creating clean, user-friendly interfaces.</li><li>Experienced in using Figma for wireframing and prototyping. Interested in web development and working in a team environment. Also familiar with Excel and SQL, helpful for basic data handling and integration. </li></ul>",
@@ -370,7 +370,7 @@ export const ProfilesList: ProfileData[] = [
     },
   },
   {
-    id: "Sakthi_Priya",
+    id: "Sakthi_Priya_S",
     name: "Sakthi Priya S",
     picture: "https://randomuser.me/api/portraits/men/1.jpg",
     role: "Frontend dev Engineer",
@@ -448,7 +448,7 @@ export const ProfilesList: ProfileData[] = [
     id: "harini",
     name: "HARINI S",
     picture: "https://randomuser.me/api/portraits/men/1.jpg",
-    role: "Back End Dev Engineer",
+    role: "Backend Dev Engineer",
     email: "harinisundar81002@gmail.com",
     summary:
       "<ul><li>Innovative UI/UX Designer, Graphic Designer, and Backend Developer with a strong foundation in crafting intuitive digital experiences and scalable backend solutions.</li><li>Proficient in Figma, Adobe Creative Suite (Photoshop, Illustrator, Jitter), Elementor, HTML, CSS, JavaScript, React.js, Spring Boot, and MySQL, I specialize in designing user-centric interfaces, developing robust APIs, and creating visually compelling graphics.</li><li>With hands-on experience in a UI/UX internship at Sarva Vidhya, I have designed engaging websites, mobile apps, wireframes, and brand identities.</li><li>My graphic design expertise includes logos, posters, product labels, and marketing materials, with notable work such as the Zuha Perfumes logo and label, product design for Nigal Mazhil, and product design for Mentor Bridge.</li><li>As a Backend Developer, I focus on building efficient APIs with Spring Boot, contributing to projects like StubLab, an AI-integrated stub server streamlining API development and testing.</li><li>Additionally, my experience working at Mentor Bridge, a startup, has enhanced my backend development skills, allowing me to gain deeper insights into API architecture and system scalability while also contributing to product design.</li><li>Passionate about design, technology, and innovation, I thrive in dynamic environments, leveraging my cross-disciplinary expertise to deliver impactful digital solutions that balance functionality, aesthetics, and performance.</li></ul>",
@@ -501,12 +501,11 @@ export const ProfilesList: ProfileData[] = [
       website: "",
     },
   },
-
   {
     id: "devaki_ravi",
     name: "Devaki Ravi",
     picture: "https://randomuser.me/api/portraits/men/1.jpg",
-    role: "Back end Engineer",
+    role: "Backend Dev Engineer",
     email: "devakiravi226@gmail.com",
     summary:
       "<ul><li>Driven and detail-oriented Backend Developer with hands-on experience in designing and developing robust, scalable APIs using Java and the Spring Boot framework.</li><li> My expertise lies in creating efficient backend systems that ensure performance, maintainability, and seamless integration with frontend services.</li></ul>",
@@ -596,13 +595,13 @@ export const ProfilesList: ProfileData[] = [
     role: "Product Analyst",
     email: "umarfarookj06@gmail.com",
     summary:
-      "<ul><li>A motivated and enthusiastic web development fresher with a strong foundation in HTML, CSS, JavaScript, and modern frameworks like React.js.</li><li>. Passionate about building responsive, user-friendly web applications and eager to learn new technologies.</li><li>Seeking an entry-level position to leverage my skills in front-end development and contribute to innovative projects while growing professionally in a dynamic environment.</li></ul>",
+      "<ul><li>A motivated and enthusiastic web development fresher with a strong foundation in HTML, CSS, JavaScript, and modern frameworks like React.js.</li><li>Passionate about building responsive, user-friendly web applications and eager to learn new technologies.</li><li>Seeking an entry-level position to leverage my skills in front-end development and contribute to innovative projects while growing professionally in a dynamic environment.</li></ul>",
     experience: [
       {
         company: "Vinculo",
         role: "Full Stack Developer",
         summary:
-          "<ul><p>As a key developer for Vinculo, an e-commerce platform for SSM Garments, I contributed to building a seamless and engaging shopping experience using MERN technology.My role focused on developing essential user-facing features and ensuring a responsive, intuitive, and secure platform across devices.</p><li>•  Authentication System – Designed and implemented a secure Login & Register page, integrating authentication mechanisms for seamless user access.</li><li>•  Product Display & View – Developed an interactive product listing and detail page, optimizing UI/UX for effortless browsing.</li><li>•  Order & Checkout Flow – Created a smooth order processing system, including an Order Page and Order Confirmation Page to enhance the purchasing experience.</li><li>• User Profile Management – Designed a dynamic Profile Page where users can manage their details, track orders, and update preferences.</li><li>• Responsive Footer Design – Built a fully responsive footer for both desktop and mobile views, ensuring a clean and organized layout.</li></ul>",
+          "<ul><p>As a key developer for Vinculo, an e-commerce platform for SSM Garments, I contributed to building a seamless and engaging shopping experience using MERN technology. My role focused on developing essential user-facing features and ensuring a responsive, intuitive, and secure platform across devices.</p><li>Authentication System – Designed and implemented a secure Login & Register page, integrating authentication mechanisms for seamless user access.</li><li>Product Display & View – Developed an interactive product listing and detail page, optimizing UI/UX for effortless browsing.</li><li>Order & Checkout Flow – Created a smooth order processing system, including an Order Page and Order Confirmation Page to enhance the purchasing experience.</li><li>User Profile Management – Designed a dynamic Profile Page where users can manage their details, track orders, and update preferences.</li><li>Responsive Footer Design – Built a fully responsive footer for both desktop and mobile views, ensuring a clean and organized layout.</li></ul>",
         website: "https://vinculoshop.com/",
       },
     ],
@@ -610,7 +609,7 @@ export const ProfilesList: ProfileData[] = [
       company: "Stublab",
       role: "Co-Founder | Analyst",
       summary:
-        "<ul><p>As a Co-Founder and Analyst at StubLab, I have played a crucial role in developing a seamless API mocking platform that empowers developers to create, test, and iterate APIs efficiently. My contributions span both frontend and backend development, focusing on user experience, API management, and automation.</p> <li> Landing Page Development – Designed and built a visually engaging, responsive landing page to introduce users to the platform.</li> <li>Model Page Implementation – Developed an interactive model page for structuring and managing mock API responses.</li> <li>API Configuration Card – Created a dynamic API configuration card, allowing users to define endpoints, request types, and response behaviors easily.</li><li>Swagger Integration – Implemented Swagger UI for API documentation, enabling developers to explore and test API functionalities within the platform.</li> <li>Status Code Management – Developed API endpoints to update and manage HTTP status codes for mock responses.</li> <li>• Application Management – Implemented functionalities to delete applications from the system.</li><li> Model & Form Updates – Created APIs to update models and form structures, allowing for flexible API testing configurations.</li></ul>",
+        "<ul><p>As a Co-Founder and Analyst at StubLab, I have played a crucial role in developing a seamless API mocking platform that empowers developers to create, test, and iterate APIs efficiently. My contributions span both frontend and backend development, focusing on user experience, API management, and automation.</p><li>Landing Page Development – Designed and built a visually engaging, responsive landing page to introduce users to the platform.</li><li>Model Page Implementation – Developed an interactive model page for structuring and managing mock API responses.</li><li>API Configuration Card – Created a dynamic API configuration card, allowing users to define endpoints, request types, and response behaviors easily.</li><li>Swagger Integration – Implemented Swagger UI for API documentation, enabling developers to explore and test API functionalities within the platform.</li><li>Status Code Management – Developed API endpoints to update and manage HTTP status codes for mock responses.</li><li>Application Management – Implemented functionalities to delete applications from the system.</li><li>Model & Form Updates – Created APIs to update models and form structures, allowing for flexible API testing configurations.</li></ul>",
       website: "https://stublab.in",
     },
     skillSets: [
@@ -639,7 +638,7 @@ export const ProfilesList: ProfileData[] = [
     name: "Jeyaraman S",
     picture:
       "https://drive.google.com/file/d/1W8Gj0rxo2dBDiTZEbwI9Wqhxdi0y-N91/view?usp=sharing",
-    role: "Frontend Dev Engineer",
+    role: "Frontend Dev Engineer | UI/UX Designer",
     email: "jeyaraman.saravanan23@gmail.com",
     summary:
       "<ul><li>Web developer with strong skills in JavaScript, TypeScript, and React.js.</li><li>Proficient in building responsive web applications and integrating APIs efficiently.</li><li>Passionate about creating seamless user experiences and optimizing frontend performance.</li></ul>",
@@ -797,7 +796,7 @@ export const ProfilesList: ProfileData[] = [
     },
   },
   {
-    id: "Nivethitha",
+    id: "Nivethitha_M",
     name: "Nivethitha M ",
     picture: "",
     role: "Backend Dev Engineer",
@@ -956,26 +955,26 @@ export const ProfilesList: ProfileData[] = [
     },
   },
   {
-    id: "subash",
+    id: "Subash",
     name: "Subash Natrayan",
     picture: "https://randomuser.me/api/portraits/men/1.jpg",
-    role: "Front-End Engineer",
+    role: "Frontend Dev Engineer",
     email: "subashnatrayan6@gmail.com",
     summary:
-      "<ul><li>My role involves strategic planning, product development, and team coordination to ensure the platform meets industry standards and user expectations.</li><li>My journey started with a fascination for how technology shapes our world, and before I knew it, I was co-founding startups like SecuroSphere and Stupro, leading front-end teams, and building solutions that bridge the gap between ideas and execution.</li><li>Whether it's crafting seamless UI/UX, integrating machine learning into sign language translator hardware, or tackling real-world problems through hackathons, I thrive on challenges that push me beyond my limits.</li></ul>",
+      "<ul><li>My role involves strategic planning, product development, and team coordination to ensure the platform meets industry standards and user expectations.</li><li>My journey started with a fascination for how technology shapes our world, and before I knew it, I was co-founding startups like ProtecWatch and Stupro, leading front-end teams, and building solutions that bridge the gap between ideas and execution.</li><li>Whether it's crafting seamless UI/UX, integrating machine learning into sign language translator hardware, or tackling real-world problems through hackathons, I thrive on challenges that push me beyond my limits.</li></ul>",
     experience: [
       {
         company: "Virtual Tech Services",
         role: "AI/ML Intern",
         summary:
-          "<ul><li>During my AI/ML internship at Virtual Tech Services, I was actively involved in building and optimizing machine learning models for real-world applications.</li><li>I gained hands-on experience in data preprocessing, analyzing large datasets, and implementing deep learning techniques like CNNs and transformers to improve model performance.</li><li>Additionally, I worked on deploying AI models in production environments, ensuring seamless integration and practical impact.</li><li>This internship provided me with valuable exposure to cutting-edge AI technologies and real-world problem-solving.</li></ul>",
+          "<ul><li>During my AI/ML internship at Virtual Tech Services, I was actively involved in building and optimizing machine learning models for real-world applications.</li><li>I gained hands-on experience in data preprocessing, analyzing large datasets, and implementing machine learning techniques and transformers to improve model performance.</li><li>Additionally, I worked on deploying AI models in production environments, ensuring seamless integration and practical impact.</li><li>This internship provided me with valuable exposure to cutting-edge AI technologies and real-world problem-solving.</li></ul>",
         website: "https://virtualtechz.in/",
       },
       {
         company: "Tarcin Robotics",
         role: "Product Developer",
         summary:
-          "<ul><li>As a Product Developer at Tarcin Robotics, Madurai, I was involved in designing and developing innovative robotic solutions tailored for automation and real-world applications.</li><li>I worked on integrating hardware and software components to enhance robotic functionality, ensuring seamless interaction between sensors, actuators, and control systems.</li><li>Additionally, I collaborated with cross-functional teams to optimize product performance, troubleshoot issues, and contribute to the overall improvement of robotic prototypes, gaining hands-on experience in both product development and real-world implementation.</li></ul>",
+          "<ul><li>As a Product Developer at Tarcin Robotics, I was involved in designing and developing innovative robotic solutions tailored for automation and real-world applications.</li><li>I worked on integrating hardware and software components to enhance robotic functionality, ensuring seamless interaction between sensors, actuators, and control systems.</li><li>Additionally, I collaborated with cross-functional teams to optimize product performance, troubleshoot issues, and contribute to the overall improvement of robotic prototypes, gaining hands-on experience in both product development and real-world implementation.</li></ul>",
         website: "https://tarcinrobotics.in/",
       },
       {
@@ -989,23 +988,23 @@ export const ProfilesList: ProfileData[] = [
         company: "Project Contest Innovation LLP",
         role: "Cybersecurity Intern",
         summary:
-          "<ul><li>Worked on real-world cybersecurity projects, identifying threats and implementing security protocols to safeguard digital assets.</li><li>Conducted security audits and compliance checks to ensure systems adhered to industry standards and best practices.</li><li>Developed secure authentication mechanisms and enhanced firewall configurations to prevent unauthorized access and cyber threats.</li></ul>",
+          "<ul><li>Worked on real-world cybersecurity projects, identifying threats and implementing security protocols to safeguard digital assets.</li><li>Conducted security audits and compliance checks to ensure systems adhered to industry standards and best practices.</li></ul>",
         website: "https://projectcontest.com/",
       },
       {
         company: "ProtecWatch",
         role: "Co-Founder",
         summary:
-          "<ul><li>As a Co-Founder of ProtecWatch, I played a pivotal role in developing a Security Watch for women safetey and cutting-edge sign language translator hardware solution.</li><li>My responsibilities included designing the hardware architecture, integrating machine learning algorithms for real-time translation, and ensuring seamless communication between the device and user interfaces.</li><li>This project not only showcased my technical skills but also highlighted my commitment to creating inclusive technology that bridges communication gaps.</li></ul>",
+          "<ul><li>As a Co-Founder of ProtecWatch, I played a pivotal role in developing a Security Watch for women's safety and a cutting-edge sign language translator hardware solution.</li><li>My responsibilities included designing the hardware architecture, integrating machine learning algorithms for real-time translation, and ensuring seamless communication between the device and user interfaces.</li><li>This project not only showcased my technical skills but also highlighted my commitment to creating inclusive technology that bridges communication gaps.</li></ul>",
+      },
+      {
+        company: "StuPro",
+        role: "Co-Founder | Lead Frontend Development Engineer",
+        summary:
+          "<ul><li>As a Co-Founder of Stupro App, I lead the development of an innovative platform designed to assist students in transitioning from academia to professional careers. My role involves strategic planning, product development, and team coordination to ensure the platform meets industry standards and user expectations.</li><li>I am also responsible for creating modules such as DeepLink, ArticleShare, ShareWithArticle, Push Notification, Swipe Card creation, Text-to-Speech conversion, Conversion to PDF, NativeBase package integration, Firebase configuration, animation, navigation, and API integration.</li></ul>",
+        website: "http://stupro.info",
       },
     ],
-    mentorBridgeExp: {
-      company: "StuPro",
-      role: "Co-Founder | Front-End Development Engineer",
-      summary:
-        "<ul><li>As a Co-Founder of Stupro App, I lead the development of an innovative platform designed to assist students in transitioning from academia to professional careers. My role involves strategic planning, product development, and team coordination to ensure the platform meets industry standards and user expectations.</li><li>I am also responsible for creating modules such as DeepLink, ArticleShare, ShareWithArticle, Push Notification, Swipe Card creation, Text-to-Speech conversion, Conversion to PDF, NativeBase package integration, Firebase configuration, animation, navigation, and API integration.</li></ul>",
-      website: "http://stupro.info",
-    },
     skillSets: [
       "React",
       "TypeScript",
@@ -1021,14 +1020,20 @@ export const ProfilesList: ProfileData[] = [
       "GitHub",
       "CI/CD",
     ],
-    inspirations: ["APJ Abdul Kalam", "Peter Thiel"],
+    inspirations: ["Nikola Tesla", "Akihiko Kayaba"],
     socialLinks: {
       linkedIn: "https://linkedin.com/in/subash-natrayan-r-m",
       gitHub: "https://github.com/subashnatrayan",
     },
+    mentorBridgeExp: {
+      company: "",
+      role: "",
+      summary: "",
+      website: "",
+    },
   },
   {
-    id: "sivasankari",
+    id: "Sivasankari",
     name: "Sivasankari",
     picture: "https://randomuser.me/api/portraits/men/1.jpg",
     role: "Backend dev Engineer",
@@ -1113,5 +1118,38 @@ export const ProfilesList: ProfileData[] = [
       gitHub: "https://github.com/Vijaykarthik1",
       website: "https://portfolio-vijaykarthik-1.web.app/",
     },
+  },
+  {
+    id: "Vishwadharshini",
+    name: "Vishwadharshini_V",
+    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    role: "UX Designer",
+    email: "vishwadharshini1793@gmail.com",
+    summary:
+      "<ul><li>A UX designer passionate about creating user-friendly interfaces. I specialize in React Native and UI/UX design, focusing on building smooth and engaging digital experiences..</li><li>Currently, I contribute to StuPro, a platform that helps students transition into professionals. My role involves UI UX design, frontend development, and product marketing to make the platform more intuitive and effective.</li></ul>",
+    mentorBridgeExp: {
+      company: "StuPro",
+      role: "Co-Founder | UX designer | Frontend Dev Engineer |",
+      summary:
+        "<ul><li>Logo and vectors – Designed logo for Stupro and different vectors to enhance user experience</li><li>Mockups – Designed mockups for Stupro to showcase our product</li><li>Preference UI Design – Designed an intuitive preference page to enhance user learning and make it personalized.</li><li>Sentence of the day Page– Developed sentence of the day page to boost user interaction.</li><li>API Integration – Connected the frontend with the backend for seamless data flow.</li></ul>",
+      website: "http://stupro.info",
+    },
+    skillSets: [
+      "UI/UX design",
+      "Graphic design",
+      "JavaScript",
+      "React Native",
+      "TypeScript",
+      "Html",
+      "css",
+    ],
+    inspirations: ["Don Norman", "Marie curie", "Senthil Kumar T"],
+    socialLinks: {
+      linkedIn:
+        "https://www.linkedin.com/in/vishwa-dharshiniutm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      gitHub: "https://github.com/Vishwadharshinivinod",
+      website: "https://johndoe.dev",
+    },
+    experience: [],
   },
 ];
