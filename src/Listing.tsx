@@ -189,7 +189,10 @@ export const Listing: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [filterRole, setFilterRole] = useState("");
 
-  const filteredData = ProfilesList.filter((person) => {
+  const sortedProfiles = [...ProfilesList].sort((a, b) =>
+    a.name.localeCompare(b.name)
+  );
+  const filteredData = sortedProfiles.filter((person) => {
     const matchesSearch = person.name
       .toLowerCase()
       .includes(searchTerm.toLowerCase());

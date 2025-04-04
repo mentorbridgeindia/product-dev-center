@@ -2,20 +2,20 @@ interface Experience {
   company: string;
   role: string;
   summary: string;
-  website: string;
+  website?: string;
 }
 
 interface MentorBridgeExp {
   company: string;
   role: string;
   summary: string;
-  website: string;
+  website?: string;
 }
 
 interface SocialLinks {
   linkedIn: string;
   gitHub: string;
-  website: string;
+  website?: string;
 }
 
 export interface ProfileData {
