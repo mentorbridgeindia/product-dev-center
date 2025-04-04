@@ -4,7 +4,7 @@ export const ProfilesList: ProfileData[] = [
   {
     id: "nagapriya",
     name: "Nagapriya",
-    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    picture: "jpg",
     role: "Backend Dev Engineer",
     email: "nagapriya.sivabalan@gmail.com",
     summary:
@@ -42,7 +42,7 @@ export const ProfilesList: ProfileData[] = [
   {
     id: "pavithraharini",
     name: "Pavithraharini S",
-    picture: " ",
+    picture: "jpeg",
     role: "Backend Dev engineer",
     email: "pavithraharini123@gmail.com",
     summary:
@@ -74,7 +74,7 @@ export const ProfilesList: ProfileData[] = [
   {
     id: "Jeyashree",
     name: "Jeyashree S",
-    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    picture: "jpg",
     role: "Frontend Dev Engineer",
     email: "jeyashreeselvan9@gmail.com",
     summary:
@@ -109,107 +109,73 @@ export const ProfilesList: ProfileData[] = [
   },
   {
     id: "karpagam",
-
     name: "Karpagam",
-
-    picture: "karpagam.jpg",
-
+    picture: "jpg",
     role: " UI/UX DESIGNER",
-
     email: " mkarpagam025@gmail.com ",
-
     summary:
       "<ul><li>A passionate UI/UX Designer and Web Developer with hands-on experience in designing and developing engaging digital experiences.</li><li>Adept at using design tools like Figma, Adobe XD, and  alongside web technologies like HTML, CSS, and JavaScript. Strong problem-solving skills with a keen eye for detail and user-centered design..</li></ul>",
-
     experience: [
       {
         company: " Accent Techno Soft",
-
         role: " UI&UX DESIGNER",
-
         summary:
           "<ul><li>•	Designed wireframes and interactive prototypes for an Event Management System..</li><li> Created engaging wireframes and interactive prototypes.</li></ul>",
-
         website:
           "https://www.figma.com/design/HyBQVgsHGb67TTs6Y96nFy/Untitled?node-id=0-1&p=f&t=raFi1lRsHz7cw53B-0",
       },
-
       {
         company: "Sarva vidya solutions ",
-
         role: "UI&UX DESIGNER",
-
         summary:
           "<ul><li>•	Created a detailed travel website using Figma.</li><li>Included insights on travel packages, itineraries, meal plans, and pricing variations..</li></ul>",
-
         website:
           "https://www.figma.com/proto/PQMxJnCESu94zEQDnoXw0F/Untitled?node-id=53-2&starting-point-node-id=53%3A2",
       },
-
       {
         company: "work zone  ",
-
         role: "UI&UX DESIGNER",
-
         summary:
           "<ul><li>.</li><li>Created API documentation to facilitate easy understanding and implementation.</li></ul>",
-
         website:
           " https://www.figma.com/design/hnvpeugDy65g9SgWJd1ctR/Untitled?node-id=0-1&p=f&t=aIeG0aXh7U4fZjIj-0",
       },
-
       {
         company: "Congono Rise Info Tech ",
-
         role: "UI&UX DESIGNER",
-
         summary:
           "<ul><li>•	Designed a gaming product launch website using Figma..</li><li> Created engaging wireframes and interactive prototypes.</li></ul>",
-
         website:
           "https://www.figma.com/design/z9E3WaDGUwBIwpP4NWEtKj/Untitled?node-id=0-1&p=f&t=QaeFA7vRIgw6liS5-0",
       },
     ],
-
     mentorBridgeExp: {
       company: "SecuroSphere ",
-
       role: "Co-Founder | Frontend Developer",
-
       summary:
         "<ul><li>Built secure LinkedIn & Microsoft OAuth login flows, integrated MFA and JWT-based authentication for seamless access control..</li><li>Developed custom user/team management modules, enhancing scalability, security, and user experience on SecuroSphere..</li></ul>",
-
       website: "http://SecuroSphere.in",
     },
 
     skillSets: [
       "figma",
-
       " Balsamiq",
-
       " Adobe XD",
-
       "Canva",
-
       " Adobe Illustrator",
-
       " Framer",
-
       "InVision",
     ],
-
     inspirations: [" Mary curry"],
-
     socialLinks: {
       linkedIn: "https://www.linkedin.com/in/karpagam-ms ",
-
       gitHub: " https://github.com/karpagamm  ",
     },
   },
   {
     id: "kajalakshmi",
     name: "Kajalakshmi M",
-    picture: "https://drive.google.com/uc?id=1jJtYV3FU_51vXMLwzB-b6lf-E_B9Tf3g",
+    picture: "jpeg",
     role: "Frontend Dev Engineer",
     email: "mkajalakshmi@gmail.com",
     summary:
@@ -248,7 +214,7 @@ export const ProfilesList: ProfileData[] = [
   {
     id: "viji",
     name: "Vijayalakshmi T",
-    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    picture: "jpg",
     role: "Frontend Dev Engineer",
     email: "vijayalakshmifsd@gmail.com",
     summary:
@@ -292,7 +258,7 @@ export const ProfilesList: ProfileData[] = [
   {
     id: "Kiruthika_G",
     name: "Kiruthika G",
-    picture: "",
+    picture: "jpeg",
     role: "Frontend Dev Engineer",
     email: "kiruthikaganesan757@gmail.com",
     summary:
@@ -332,7 +298,7 @@ export const ProfilesList: ProfileData[] = [
   {
     id: "Nithya_Bala_M",
     name: "Nithya Bala M",
-    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    picture: "jpg",
     role: "Frontend Dev Engineer",
     email: "nithyabala02062004@gmail.com",
     summary:
@@ -364,7 +330,7 @@ export const ProfilesList: ProfileData[] = [
     ],
     inspirations: ["APJ Abdul Kalam"],
     socialLinks: {
-      linkedIn: "http://www.linkedin.com/in/",
+      linkedIn: "https://www.linkedin.com/in/nithyabala02/",
       gitHub: "https://github.com/Nithyabala2004",
       website: "",
     },
@@ -372,7 +338,7 @@ export const ProfilesList: ProfileData[] = [
   {
     id: "Sakthi_Priya_S",
     name: "Sakthi Priya S",
-    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    picture: "jpg",
     role: "Frontend dev Engineer",
     email: "sakthikannan823@gmail.com",
     summary:
@@ -403,7 +369,7 @@ export const ProfilesList: ProfileData[] = [
   {
     id: "Karthekeyan_M",
     name: "Karthekeyan M",
-    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    picture: "jpg",
     role: "Frontend Dev Engineer",
     email: "karthekeyan.muruganantham@gmail.com",
     summary:
@@ -447,7 +413,7 @@ export const ProfilesList: ProfileData[] = [
   {
     id: "harini",
     name: "HARINI S",
-    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    picture: "jpg",
     role: "Backend Dev Engineer",
     email: "harinisundar81002@gmail.com",
     summary:
@@ -504,7 +470,7 @@ export const ProfilesList: ProfileData[] = [
   {
     id: "devaki_ravi",
     name: "Devaki Ravi",
-    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    picture: "jpeg",
     role: "Backend Dev Engineer",
     email: "devakiravi226@gmail.com",
     summary:
@@ -544,9 +510,9 @@ export const ProfilesList: ProfileData[] = [
     },
   },
   {
-    id: "sherin_sithara",
+    id: "sherin-sithara",
     name: "Sherin Sithara M",
-    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    picture: "jpeg",
     role: "Backend Dev Engineer",
     email: "sherinsithara0008@gmail.com",
     summary:
@@ -585,13 +551,13 @@ export const ProfilesList: ProfileData[] = [
     socialLinks: {
       linkedIn: "https://www.linkedin.com/in/sherin-sithara-1a6244263/",
       gitHub: "https://github.com/sherinsithara",
-      website: "https://johndoe.dev",
+      website: "",
     },
   },
   {
     id: "umar_farook",
     name: "Umar Farook J",
-    picture: "",
+    picture: "png",
     role: "Product Analyst",
     email: "umarfarookj06@gmail.com",
     summary:
@@ -636,8 +602,7 @@ export const ProfilesList: ProfileData[] = [
   {
     id: "jeyaraman",
     name: "Jeyaraman S",
-    picture:
-      "https://drive.google.com/file/d/1W8Gj0rxo2dBDiTZEbwI9Wqhxdi0y-N91/view?usp=sharing",
+    picture: "jpg",
     role: "Frontend Dev Engineer | UI/UX Designer",
     email: "jeyaraman.saravanan23@gmail.com",
     summary:
@@ -684,7 +649,7 @@ export const ProfilesList: ProfileData[] = [
   {
     id: "balakrishnan",
     name: "Bala Krishnan",
-    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    picture: "jpg",
     role: "Mobile App Developer",
     email: "sbkrish2506@gmail.com",
     summary:
@@ -752,7 +717,7 @@ export const ProfilesList: ProfileData[] = [
 
     name: "Prasanna",
 
-    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    picture: "jpg",
 
     role: "Product Analyst",
 
@@ -798,7 +763,7 @@ export const ProfilesList: ProfileData[] = [
   {
     id: "Nivethitha_M",
     name: "Nivethitha M ",
-    picture: "",
+    picture: "jpeg",
     role: "Backend Dev Engineer",
     email: "nivethitha029@gmail.com",
     summary:
@@ -852,7 +817,7 @@ export const ProfilesList: ProfileData[] = [
     inspirations: ["APJ Abdul Kalam", "Ratan Tata"],
 
     socialLinks: {
-      linkedIn: "linkedin.com/in/nivethitha01",
+      linkedIn: "https://www.linkedin.com/in/nivethitha01/",
       gitHub: "https://github.com/NivethithaAbilash",
       website: "",
     },
@@ -860,7 +825,7 @@ export const ProfilesList: ProfileData[] = [
   {
     id: "bavani",
     name: "Bavani K",
-    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    picture: "jpg",
     role: "Mobile App Developer",
     email: "bavanikannan2412@gmail.com",
     summary:
@@ -899,15 +864,15 @@ export const ProfilesList: ProfileData[] = [
     ],
     inspirations: ["Virat Kohli"],
     socialLinks: {
-      linkedIn: "https://www.linkedin.com/in/bavani- kannan-b15938287/ ",
+      linkedIn: "https://www.linkedin.com/in/bavani-kannan-b15938287/",
       gitHub: " https://github.com/bavanikannan12",
     },
   },
   {
     id: "meena",
     name: "Meena S",
-    picture: "https://randomuser.me/api/portraits/men/1.jpg",
-    role: "Mobile Application Developer",
+    picture: "jpg",
+    role: "Mobile Application Developer | Product Analyst",
     email: "meenasivakumar44@gmail.com",
     summary:
       "<ul><li>Passionate and detail-oriented Mobile App Developer with expertise in Flutter, React Native, and Java. Experienced in building scalable applications, integrating APIs, and working with Firebase for real-time data management.</li></ul>",
@@ -1073,7 +1038,7 @@ export const ProfilesList: ProfileData[] = [
   {
     id: "Sivasankari",
     name: "Sivasankari",
-    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    picture: "jpg",
     role: "Backend dev Engineer",
     email: "sivasankarikannan16@gmail.com",
     summary:
@@ -1117,7 +1082,7 @@ export const ProfilesList: ProfileData[] = [
   {
     id: "Vijaykarthik",
     name: "Vijaykarthik S",
-    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    picture: "png",
     role: "Frontend Dev Engineer",
     email: "vijaykarthik.cse2025@gmail.com",
     summary:
@@ -1160,7 +1125,7 @@ export const ProfilesList: ProfileData[] = [
   {
     id: "Vishwadharshini",
     name: "Vishwadharshini V",
-    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    picture: "jpg",
     role: "UX Designer",
     email: "vishwadharshini1793@gmail.com",
     summary:
@@ -1183,10 +1148,9 @@ export const ProfilesList: ProfileData[] = [
     ],
     inspirations: ["Don Norman", "Marie curie", "Senthil Kumar T"],
     socialLinks: {
-      linkedIn:
-        "https://www.linkedin.com/in/vishwa-dharshiniutm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      linkedIn: "https://www.linkedin.com/in/vishwa-dharshini",
       gitHub: "https://github.com/Vishwadharshinivinod",
-      website: "https://johndoe.dev",
+      website: "",
     },
     experience: [],
   },

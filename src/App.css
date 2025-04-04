@@ -37,9 +37,25 @@
   }
 }
 
-.logo {
-  width: 100%;
-  height: 100px;
+@media screen and (min-width: 1200px) {
+  .logo {
+    width: 100%;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 50%;
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .logo {
+    width: 50%;
+    height: 75px;
+  }
 }
 
 .logo-sm {
@@ -60,4 +76,13 @@ ul li {
   }
   font-size: 1rem;
   line-height: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  ul {
+    padding: 0 0.5rem !important;
+    li {
+      margin-bottom: 1rem;
+    }
+  }
 }
