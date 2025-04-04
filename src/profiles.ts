@@ -5,7 +5,7 @@ export const ProfilesList: ProfileData[] = [
     id: "nagapriya",
     name: "Nagapriya",
     picture: "https://randomuser.me/api/portraits/men/1.jpg",
-    role: "Backend Engineer",
+    role: "Backend Dev Engineer",
     email: "nagapriya.sivabalan@gmail.com",
     summary:
       "<ul><li>I am an enthusiastic learner with a strong drive to explore and adapt to new technologies.</li><li>I believe in learning by doing and have consistently taken up tasks with dedication.</li><li>I’ve been actively working with backend technologies like Java and Spring Boot, and I’m eager to expand my knowledge even further.</li><li>I am passionate about contributing to meaningful work, constantly upgrading my skills, and giving my best in every opportunity I get.</li></ul>",
@@ -75,7 +75,7 @@ export const ProfilesList: ProfileData[] = [
     id: "Jeyashree",
     name: "Jeyashree S",
     picture: "https://randomuser.me/api/portraits/men/1.jpg",
-    role: "Frontend Engineer",
+    role: "Frontend Dev Engineer",
     email: "jeyashreeselvan9@gmail.com",
     summary:
       "<ul><li>I am currently pursuing final year of B.E. in Computer Science and Engineering at SSMIET. I am a passionate front-end developer with experience in building responsive and user-friendly web applications.</li><li>I am the Co-founder and Front-End Developer of Securosphere. My core areas of interest lie in Front-End Development and UI/UX Design. I am proficient in technologies such as HTML, CSS, JavaScript, React.js, Bootstrap, and TypeScript. Additionally, I have strong skills in UI design, with hands-on experience using design tools like Figma and Canva.</li></ul>",
@@ -114,7 +114,7 @@ export const ProfilesList: ProfileData[] = [
 
     picture: "karpagam.jpg",
 
-    role: " UI&UX DESIGNER",
+    role: " UI/UX DESIGNER",
 
     email: " mkarpagam025@gmail.com ",
 
@@ -210,7 +210,7 @@ export const ProfilesList: ProfileData[] = [
     id: "kajalakshmi",
     name: "Kajalakshmi M",
     picture: "https://drive.google.com/uc?id=1jJtYV3FU_51vXMLwzB-b6lf-E_B9Tf3g",
-    role: "Frontend Engineer",
+    role: "Frontend Dev Engineer",
     email: "mkajalakshmi@gmail.com",
     summary:
       "<ul><li>I'm a passionate Frontend Developer and Co-founder of SecuroSphere, currently pursuing my Bachelor's degree in Computer Science Engineering at SSMIET.</li><li>Specialized in building scalable, responsive user interfaces using React.js and Bootstrap, focusing on performance and accessibility.</li><li>Beyond development and design, I also created and presented the pitch deck for SecuroSphere, helping effectively communicate our product vision to internal teams, college management, and potential collaborators.</li></ul>",
@@ -249,7 +249,7 @@ export const ProfilesList: ProfileData[] = [
     id: "viji",
     name: "Vijayalakshmi T",
     picture: "https://randomuser.me/api/portraits/men/1.jpg",
-    role: "Front end Engineer",
+    role: "Frontend Dev Engineer",
     email: "vijayalakshmifsd@gmail.com",
     summary:
       "<ul><li>Designed product interfaces and user flows, contributing to the overall user experience of the platform.</li><li>Created API documentation to facilitate easy understanding and implementation.</li></ul>",
@@ -333,7 +333,7 @@ export const ProfilesList: ProfileData[] = [
     id: "Nithya_Bala_M",
     name: "Nithya Bala M",
     picture: "https://randomuser.me/api/portraits/men/1.jpg",
-    role: "Front end Engineer",
+    role: "Frontend Dev Engineer",
     email: "nithyabala02062004@gmail.com",
     summary:
       "<ul><li>Frontend Developer with a good understanding of HTML, CSS, and React.js. Skilled in building responsive web designs and creating clean, user-friendly interfaces.</li><li>Experienced in using Figma for wireframing and prototyping. Interested in web development and working in a team environment. Also familiar with Excel and SQL, helpful for basic data handling and integration. </li></ul>",
@@ -448,7 +448,7 @@ export const ProfilesList: ProfileData[] = [
     id: "harini",
     name: "HARINI S",
     picture: "https://randomuser.me/api/portraits/men/1.jpg",
-    role: "Back End Dev Engineer",
+    role: "Backend Dev Engineer",
     email: "harinisundar81002@gmail.com",
     summary:
       "<ul><li>Innovative UI/UX Designer, Graphic Designer, and Backend Developer with a strong foundation in crafting intuitive digital experiences and scalable backend solutions.</li><li>Proficient in Figma, Adobe Creative Suite (Photoshop, Illustrator, Jitter), Elementor, HTML, CSS, JavaScript, React.js, Spring Boot, and MySQL, I specialize in designing user-centric interfaces, developing robust APIs, and creating visually compelling graphics.</li><li>With hands-on experience in a UI/UX internship at Sarva Vidhya, I have designed engaging websites, mobile apps, wireframes, and brand identities.</li><li>My graphic design expertise includes logos, posters, product labels, and marketing materials, with notable work such as the Zuha Perfumes logo and label, product design for Nigal Mazhil, and product design for Mentor Bridge.</li><li>As a Backend Developer, I focus on building efficient APIs with Spring Boot, contributing to projects like StubLab, an AI-integrated stub server streamlining API development and testing.</li><li>Additionally, my experience working at Mentor Bridge, a startup, has enhanced my backend development skills, allowing me to gain deeper insights into API architecture and system scalability while also contributing to product design.</li><li>Passionate about design, technology, and innovation, I thrive in dynamic environments, leveraging my cross-disciplinary expertise to deliver impactful digital solutions that balance functionality, aesthetics, and performance.</li></ul>",
@@ -505,7 +505,7 @@ export const ProfilesList: ProfileData[] = [
     id: "devaki_ravi",
     name: "Devaki Ravi",
     picture: "https://randomuser.me/api/portraits/men/1.jpg",
-    role: "Back end Engineer",
+    role: "Backend Dev Engineer",
     email: "devakiravi226@gmail.com",
     summary:
       "<ul><li>Driven and detail-oriented Backend Developer with hands-on experience in designing and developing robust, scalable APIs using Java and the Spring Boot framework.</li><li> My expertise lies in creating efficient backend systems that ensure performance, maintainability, and seamless integration with frontend services.</li></ul>",
