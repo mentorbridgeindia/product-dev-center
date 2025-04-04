@@ -872,7 +872,7 @@ export const ProfilesList: ProfileData[] = [
     id: "meena",
     name: "Meena S",
     picture: "jpg",
-    role: "Mobile Application Developer",
+    role: "Mobile Application Developer | Product Analyst",
     email: "meenasivakumar44@gmail.com",
     summary:
       "<ul><li>Passionate and detail-oriented Mobile App Developer with expertise in Flutter, React Native, and Java. Experienced in building scalable applications, integrating APIs, and working with Firebase for real-time data management.</li></ul>",
