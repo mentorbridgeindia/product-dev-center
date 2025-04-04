@@ -330,7 +330,7 @@ export const ProfilesList: ProfileData[] = [
     ],
     inspirations: ["APJ Abdul Kalam"],
     socialLinks: {
-      linkedIn: "http://www.linkedin.com/in/",
+      linkedIn: "https://www.linkedin.com/in/nithyabala02/",
       gitHub: "https://github.com/Nithyabala2004",
       website: "",
     },
@@ -551,7 +551,7 @@ export const ProfilesList: ProfileData[] = [
     socialLinks: {
       linkedIn: "https://www.linkedin.com/in/sherin-sithara-1a6244263/",
       gitHub: "https://github.com/sherinsithara",
-      website: "https://johndoe.dev",
+      website: "",
     },
   },
   {
@@ -817,7 +817,7 @@ export const ProfilesList: ProfileData[] = [
     inspirations: ["APJ Abdul Kalam", "Ratan Tata"],
 
     socialLinks: {
-      linkedIn: "linkedin.com/in/nivethitha01",
+      linkedIn: "https://www.linkedin.com/in/nivethitha01/",
       gitHub: "https://github.com/NivethithaAbilash",
       website: "",
     },
@@ -864,7 +864,7 @@ export const ProfilesList: ProfileData[] = [
     ],
     inspirations: ["Virat Kohli"],
     socialLinks: {
-      linkedIn: "https://www.linkedin.com/in/bavani- kannan-b15938287/ ",
+      linkedIn: "https://www.linkedin.com/in/bavani-kannan-b15938287/",
       gitHub: " https://github.com/bavanikannan12",
     },
   },
@@ -987,7 +987,7 @@ export const ProfilesList: ProfileData[] = [
     ],
     inspirations: ["Nikola Tesla", "Akihiko Kayaba"],
     socialLinks: {
-      linkedIn: "https://linkedin.com/in/subash-natrayan-r-m",
+      linkedIn: "https://www.linkedin.com/in/subash-natrayan-r-m-4654aa319/",
       gitHub: "https://github.com/subashnatrayan",
     },
     mentorBridgeExp: {
@@ -1110,10 +1110,9 @@ export const ProfilesList: ProfileData[] = [
     ],
     inspirations: ["Don Norman", "Marie curie", "Senthil Kumar T"],
     socialLinks: {
-      linkedIn:
-        "https://www.linkedin.com/in/vishwa-dharshiniutm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      linkedIn: "https://www.linkedin.com/in/vishwa-dharshini",
       gitHub: "https://github.com/Vishwadharshinivinod",
-      website: "https://johndoe.dev",
+      website: "",
     },
     experience: [],
   },
