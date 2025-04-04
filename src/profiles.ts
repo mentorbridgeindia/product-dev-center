@@ -929,18 +929,14 @@ export const ProfilesList: ProfileData[] = [
         website: "https://github.com/MeenaSivakumar/WeatherApp",
       },
     ],
-
     mentorBridgeExp: {
       company: "StuPro",
-
       role: "Co-Founder | Product Analyst",
-
       summary:
         "<ul><li>Designed and developed the Feedback Page, enabling users to submit feedback seamlessly. Created the Change Password Page with secure validation and API integration.Resolved UI/UX issues and optimized the interface for a better user experience. Developed a secure API for user authentication via OTP validation. Created an endpoint to store user feedback in the database.Automated the retrieval of AI-generated daily challenges, coding tasks, quizzes, and tech facts.Implemented a cron scheduler to fetch and store this data periodically in MongoDB.</li></ul>",
 
       website: "http://stupro.info",
     },
-
     skillSets: [
       "Java",
       "TypeScript",
