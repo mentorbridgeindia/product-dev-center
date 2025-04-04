@@ -1121,7 +1121,7 @@ export const ProfilesList: ProfileData[] = [
   },
   {
     id: "Vishwadharshini",
-    name: "Vishwadharshini_V",
+    name: "Vishwadharshini V",
     picture: "https://randomuser.me/api/portraits/men/1.jpg",
     role: "UX Designer",
     email: "vishwadharshini1793@gmail.com",
