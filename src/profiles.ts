@@ -43,7 +43,7 @@ export const ProfilesList: ProfileData[] = [
     id: "pavithraharini",
     name: "Pavithraharini S",
     picture: " ",
-    role: "Full stack developer",
+    role: "Backend Dev engineer",
     email: "pavithraharini123@gmail.com",
     summary:
       "<ul><li>Developed the product with the Easy user interfaces </li><li>Analysed and developed the easy managing facility </li></ul>",
@@ -290,7 +290,7 @@ export const ProfilesList: ProfileData[] = [
     },
   },
   {
-    id: "kiruthika",
+    id: "Kiruthika_G",
     name: "Kiruthika G",
     picture: "",
     role: "Frontend Dev Engineer",
@@ -330,7 +330,7 @@ export const ProfilesList: ProfileData[] = [
     },
   },
   {
-    id: "Nithya_Bala",
+    id: "Nithya_Bala_M",
     name: "Nithya Bala M",
     picture: "https://randomuser.me/api/portraits/men/1.jpg",
     role: "Front end Engineer",
@@ -370,7 +370,7 @@ export const ProfilesList: ProfileData[] = [
     },
   },
   {
-    id: "Sakthi_Priya",
+    id: "Sakthi_Priya_S",
     name: "Sakthi Priya S",
     picture: "https://randomuser.me/api/portraits/men/1.jpg",
     role: "Frontend dev Engineer",
@@ -501,7 +501,6 @@ export const ProfilesList: ProfileData[] = [
       website: "",
     },
   },
-
   {
     id: "devaki_ravi",
     name: "Devaki Ravi",
@@ -639,7 +638,7 @@ export const ProfilesList: ProfileData[] = [
     name: "Jeyaraman S",
     picture:
       "https://drive.google.com/file/d/1W8Gj0rxo2dBDiTZEbwI9Wqhxdi0y-N91/view?usp=sharing",
-    role: "Frontend Dev Engineer",
+    role: "Frontend Dev Engineer | UI/UX Designer",
     email: "jeyaraman.saravanan23@gmail.com",
     summary:
       "<ul><li>Web developer with strong skills in JavaScript, TypeScript, and React.js.</li><li>Proficient in building responsive web applications and integrating APIs efficiently.</li><li>Passionate about creating seamless user experiences and optimizing frontend performance.</li></ul>",
@@ -797,7 +796,7 @@ export const ProfilesList: ProfileData[] = [
     },
   },
   {
-    id: "Nivethitha",
+    id: "Nivethitha_M",
     name: "Nivethitha M ",
     picture: "",
     role: "Backend Dev Engineer",
@@ -956,26 +955,26 @@ export const ProfilesList: ProfileData[] = [
     },
   },
   {
-    id: "subash",
+    id: "Subash",
     name: "Subash Natrayan",
     picture: "https://randomuser.me/api/portraits/men/1.jpg",
-    role: "Front-End Engineer",
+    role: "Frontend Dev Engineer",
     email: "subashnatrayan6@gmail.com",
     summary:
-      "<ul><li>My role involves strategic planning, product development, and team coordination to ensure the platform meets industry standards and user expectations.</li><li>My journey started with a fascination for how technology shapes our world, and before I knew it, I was co-founding startups like SecuroSphere and Stupro, leading front-end teams, and building solutions that bridge the gap between ideas and execution.</li><li>Whether it's crafting seamless UI/UX, integrating machine learning into sign language translator hardware, or tackling real-world problems through hackathons, I thrive on challenges that push me beyond my limits.</li></ul>",
+      "<ul><li>My role involves strategic planning, product development, and team coordination to ensure the platform meets industry standards and user expectations.</li><li>My journey started with a fascination for how technology shapes our world, and before I knew it, I was co-founding startups like ProtecWatch and Stupro, leading front-end teams, and building solutions that bridge the gap between ideas and execution.</li><li>Whether it's crafting seamless UI/UX, integrating machine learning into sign language translator hardware, or tackling real-world problems through hackathons, I thrive on challenges that push me beyond my limits.</li></ul>",
     experience: [
       {
         company: "Virtual Tech Services",
         role: "AI/ML Intern",
         summary:
-          "<ul><li>During my AI/ML internship at Virtual Tech Services, I was actively involved in building and optimizing machine learning models for real-world applications.</li><li>I gained hands-on experience in data preprocessing, analyzing large datasets, and implementing deep learning techniques like CNNs and transformers to improve model performance.</li><li>Additionally, I worked on deploying AI models in production environments, ensuring seamless integration and practical impact.</li><li>This internship provided me with valuable exposure to cutting-edge AI technologies and real-world problem-solving.</li></ul>",
+          "<ul><li>During my AI/ML internship at Virtual Tech Services, I was actively involved in building and optimizing machine learning models for real-world applications.</li><li>I gained hands-on experience in data preprocessing, analyzing large datasets, and implementing machine learning techniques and transformers to improve model performance.</li><li>Additionally, I worked on deploying AI models in production environments, ensuring seamless integration and practical impact.</li><li>This internship provided me with valuable exposure to cutting-edge AI technologies and real-world problem-solving.</li></ul>",
         website: "https://virtualtechz.in/",
       },
       {
         company: "Tarcin Robotics",
         role: "Product Developer",
         summary:
-          "<ul><li>As a Product Developer at Tarcin Robotics, Madurai, I was involved in designing and developing innovative robotic solutions tailored for automation and real-world applications.</li><li>I worked on integrating hardware and software components to enhance robotic functionality, ensuring seamless interaction between sensors, actuators, and control systems.</li><li>Additionally, I collaborated with cross-functional teams to optimize product performance, troubleshoot issues, and contribute to the overall improvement of robotic prototypes, gaining hands-on experience in both product development and real-world implementation.</li></ul>",
+          "<ul><li>As a Product Developer at Tarcin Robotics, I was involved in designing and developing innovative robotic solutions tailored for automation and real-world applications.</li><li>I worked on integrating hardware and software components to enhance robotic functionality, ensuring seamless interaction between sensors, actuators, and control systems.</li><li>Additionally, I collaborated with cross-functional teams to optimize product performance, troubleshoot issues, and contribute to the overall improvement of robotic prototypes, gaining hands-on experience in both product development and real-world implementation.</li></ul>",
         website: "https://tarcinrobotics.in/",
       },
       {
@@ -989,23 +988,23 @@ export const ProfilesList: ProfileData[] = [
         company: "Project Contest Innovation LLP",
         role: "Cybersecurity Intern",
         summary:
-          "<ul><li>Worked on real-world cybersecurity projects, identifying threats and implementing security protocols to safeguard digital assets.</li><li>Conducted security audits and compliance checks to ensure systems adhered to industry standards and best practices.</li><li>Developed secure authentication mechanisms and enhanced firewall configurations to prevent unauthorized access and cyber threats.</li></ul>",
+          "<ul><li>Worked on real-world cybersecurity projects, identifying threats and implementing security protocols to safeguard digital assets.</li><li>Conducted security audits and compliance checks to ensure systems adhered to industry standards and best practices.</li></ul>",
         website: "https://projectcontest.com/",
       },
       {
         company: "ProtecWatch",
         role: "Co-Founder",
         summary:
-          "<ul><li>As a Co-Founder of ProtecWatch, I played a pivotal role in developing a Security Watch for women safetey and cutting-edge sign language translator hardware solution.</li><li>My responsibilities included designing the hardware architecture, integrating machine learning algorithms for real-time translation, and ensuring seamless communication between the device and user interfaces.</li><li>This project not only showcased my technical skills but also highlighted my commitment to creating inclusive technology that bridges communication gaps.</li></ul>",
+          "<ul><li>As a Co-Founder of ProtecWatch, I played a pivotal role in developing a Security Watch for women's safety and a cutting-edge sign language translator hardware solution.</li><li>My responsibilities included designing the hardware architecture, integrating machine learning algorithms for real-time translation, and ensuring seamless communication between the device and user interfaces.</li><li>This project not only showcased my technical skills but also highlighted my commitment to creating inclusive technology that bridges communication gaps.</li></ul>",
+      },
+      {
+        company: "StuPro",
+        role: "Co-Founder | Lead Frontend Development Engineer",
+        summary:
+          "<ul><li>As a Co-Founder of Stupro App, I lead the development of an innovative platform designed to assist students in transitioning from academia to professional careers. My role involves strategic planning, product development, and team coordination to ensure the platform meets industry standards and user expectations.</li><li>I am also responsible for creating modules such as DeepLink, ArticleShare, ShareWithArticle, Push Notification, Swipe Card creation, Text-to-Speech conversion, Conversion to PDF, NativeBase package integration, Firebase configuration, animation, navigation, and API integration.</li></ul>",
+        website: "http://stupro.info",
       },
     ],
-    mentorBridgeExp: {
-      company: "StuPro",
-      role: "Co-Founder | Front-End Development Engineer",
-      summary:
-        "<ul><li>As a Co-Founder of Stupro App, I lead the development of an innovative platform designed to assist students in transitioning from academia to professional careers. My role involves strategic planning, product development, and team coordination to ensure the platform meets industry standards and user expectations.</li><li>I am also responsible for creating modules such as DeepLink, ArticleShare, ShareWithArticle, Push Notification, Swipe Card creation, Text-to-Speech conversion, Conversion to PDF, NativeBase package integration, Firebase configuration, animation, navigation, and API integration.</li></ul>",
-      website: "http://stupro.info",
-    },
     skillSets: [
       "React",
       "TypeScript",
@@ -1021,14 +1020,20 @@ export const ProfilesList: ProfileData[] = [
       "GitHub",
       "CI/CD",
     ],
-    inspirations: ["APJ Abdul Kalam", "Peter Thiel"],
+    inspirations: ["Nikola Tesla", "Akihiko Kayaba"],
     socialLinks: {
       linkedIn: "https://linkedin.com/in/subash-natrayan-r-m",
       gitHub: "https://github.com/subashnatrayan",
     },
+    mentorBridgeExp: {
+      company: "",
+      role: "",
+      summary: "",
+      website: "",
+    },
   },
   {
-    id: "sivasankari",
+    id: "Sivasankari",
     name: "Sivasankari",
     picture: "https://randomuser.me/api/portraits/men/1.jpg",
     role: "Backend dev Engineer",
@@ -1113,5 +1118,38 @@ export const ProfilesList: ProfileData[] = [
       gitHub: "https://github.com/Vijaykarthik1",
       website: "https://portfolio-vijaykarthik-1.web.app/",
     },
+  },
+  {
+    id: "Vishwadharshini",
+    name: "Vishwadharshini_V",
+    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    role: "UX Designer",
+    email: "vishwadharshini1793@gmail.com",
+    summary:
+      "<ul><li>A UX designer passionate about creating user-friendly interfaces. I specialize in React Native and UI/UX design, focusing on building smooth and engaging digital experiences..</li><li>Currently, I contribute to StuPro, a platform that helps students transition into professionals. My role involves UI UX design, frontend development, and product marketing to make the platform more intuitive and effective.</li></ul>",
+    mentorBridgeExp: {
+      company: "StuPro",
+      role: "Co-Founder | UX designer | Frontend Dev Engineer |",
+      summary:
+        "<ul><li>Logo and vectors – Designed logo for Stupro and different vectors to enhance user experience</li><li>Mockups – Designed mockups for Stupro to showcase our product</li><li>Preference UI Design – Designed an intuitive preference page to enhance user learning and make it personalized.</li><li>Sentence of the day Page– Developed sentence of the day page to boost user interaction.</li><li>API Integration – Connected the frontend with the backend for seamless data flow.</li></ul>",
+      website: "http://stupro.info",
+    },
+    skillSets: [
+      "UI/UX design",
+      "Graphic design",
+      "JavaScript",
+      "React Native",
+      "TypeScript",
+      "Html",
+      "css",
+    ],
+    inspirations: ["Don Norman", "Marie curie", "Senthil Kumar T"],
+    socialLinks: {
+      linkedIn:
+        "https://www.linkedin.com/in/vishwa-dharshiniutm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      gitHub: "https://github.com/Vishwadharshinivinod",
+      website: "https://johndoe.dev",
+    },
+    experience: [],
   },
 ];
