@@ -358,11 +358,16 @@ export const Profile = () => {
   const profileData = ProfilesList.find((profile) => profile.id === params.id);
 
   const downloadResume = () => {
-    const url = profileData?.resumeLink;
-    if (url) {
-      window.open(url, '_blank');
+    if (profileData) {
+      const url =
+        "https://wfkq0nguanh0273r.public.blob.vercel-storage.com/mentorbridge-pics/" +
+        profileData.id +
+        ".pdf";
+      if (url) {
+        window.open(url, "_blank");
+      }
     }
-  }
+  };
 
   return profileData ? (
     <div>
@@ -385,13 +390,17 @@ export const Profile = () => {
             />
             <img
               src="https://www.mentorbridge.in/_next/static/media/icon-logo-horizontal.2500857b.svg"
-              className="logo-sm" alt="mentorbridge"
+              className="logo-sm"
+              alt="mentorbridge"
             />
           </div>
         </BreadcrumbContainer>
         <ProfileCard>
           <Header>
-            <ProfileImage src={profileData.picture} alt={profileData.name} />
+            <ProfileImage
+              src={`https://wfkq0nguanh0273r.public.blob.vercel-storage.com/mentorbridge-pics/${profileData.id}.${profileData.picture}`}
+              alt={profileData.name}
+            />
             <HeaderInfo>
               <div
                 style={{

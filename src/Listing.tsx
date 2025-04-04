@@ -176,7 +176,10 @@ const FilterSelect = styled.select`
 const PersonItem: React.FC<{ person: ProfileData }> = ({ person }) => (
   <Card>
     <PersonCard>
-      <PersonImage src={person.picture} alt={person.name} />
+      <PersonImage
+        src={`https://wfkq0nguanh0273r.public.blob.vercel-storage.com/mentorbridge-pics/${person.id}.${person.picture}`}
+        alt={person.name}
+      />
       <InfoContainer href={"/" + person.id}>
         <Name>{person.name}</Name>
         <Role>{person.role}</Role>
