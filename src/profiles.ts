@@ -921,68 +921,45 @@ export const ProfilesList: ProfileData[] = [
   },
   {
     id: "Subash",
-
     name: "Subash Natrayan",
-
     picture: "jpg",
-
     role: "Frontend Dev Engineer",
-
     email: "subashnatrayan6@gmail.com",
-
     summary:
       "<ul><li>My role involves strategic planning, product development, and team coordination to ensure the platform meets industry standards and user expectations.</li><li>My journey started with a fascination for how technology shapes our world, and before I knew it, I was co-founding startups like ProtecWatch and Stupro, leading front-end teams, and building solutions that bridge the gap between ideas and execution.</li><li>Whether it's crafting seamless UI/UX, integrating machine learning into sign language translator hardware, or tackling real-world problems through hackathons, I thrive on challenges that push me beyond my limits.</li></ul>",
-
     experience: [
       {
         company: "Virtual Tech Services",
-
         role: "AI/ML Intern",
-
         summary:
           "<ul><li>During my AI/ML internship at Virtual Tech Services, I was actively involved in building and optimizing machine learning models for real-world applications.</li><li>I gained hands-on experience in data preprocessing, analyzing large datasets, and implementing machine learning techniques and transformers to improve model performance.</li><li>Additionally, I worked on deploying AI models in production environments, ensuring seamless integration and practical impact.</li><li>This internship provided me with valuable exposure to cutting-edge AI technologies and real-world problem-solving.</li></ul>",
-
         website: "https://virtualtechz.in/",
       },
-
       {
         company: "Tarcin Robotics",
-
         role: "Product Developer",
-
         summary:
           "<ul><li>As a Product Developer at Tarcin Robotics,  I was involved in designing and developing innovative robotic solutions tailored for automation and real-world applications.</li><li>I worked on integrating hardware and software components to enhance robotic functionality, ensuring seamless interaction between sensors, actuators, and control systems.</li><li>Additionally, I collaborated with cross-functional teams to optimize product performance, troubleshoot issues, and contribute to the overall improvement of robotic prototypes, gaining hands-on experience in both product development and real-world implementation.</li></ul>",
-
         website: "https://tarcinrobotics.in/",
       },
-
       {
         company: "Acmegrade",
-
         role: "Cybersecurity Intern",
-
         summary:
           "<ul><li>Conducted vulnerability assessments and penetration testing on web applications to identify security flaws and recommend mitigation strategies.</li><li>Gained hands-on experience in network security, encryption techniques, and implementing security measures to protect sensitive data.</li><li>Explored ethical hacking methodologies, working with tools like Kali Linux, Metasploit, and Wireshark to analyze and strengthen system defenses.</li></ul>",
-
         website: "https://acmegrade.com/",
       },
 
       {
         company: "Project Contest Innovation LLP",
-
         role: "Cybersecurity Intern",
-
         summary:
           "<ul><li>Worked on real-world cybersecurity projects, identifying threats and implementing security protocols to safeguard digital assets.</li><li>Conducted security audits and compliance checks to ensure systems adhered to industry standards and best practices.</li></ul>",
-
         website: "https://projectcontest.com/",
       },
-
       {
         company: "ProtecWatch",
-
         role: "Co-Founder",
-
         summary:
           "<ul><li>As a Co-Founder of ProtecWatch, I played a pivotal role in developing a Security Watch for women safetey and cutting-edge sign language translator hardware solution.</li><li>My responsibilities included designing the hardware architecture, integrating machine learning algorithms for real-time translation, and ensuring seamless communication between the device and user interfaces.</li><li>This project not only showcased my technical skills but also highlighted my commitment to creating inclusive technology that bridges communication gaps.</li></ul>",
       },
@@ -990,49 +967,33 @@ export const ProfilesList: ProfileData[] = [
 
     mentorBridgeExp: {
       company: "StuPro",
-
       role: "Co-Founder | Lead Frontend Development Engineer",
-
       summary:
         "<ul><li>As a Co-Founder of Stupro App, I lead the development of an innovative platform designed to assist students in transitioning from academia to professional careers. My role involves strategic planning, product development, and team coordination to ensure the platform meets industry standards and user expectations.</li><li>I am also responsible for creating modules such as DeepLink, ArticleShare, ShareWithArticle, Push Notification, Swipe Card creation, Text-to-Speech conversion, Conversion to PDF, NativeBase package integration, Firebase configuration, animation, navigation, and API integration.</li></ul>",
-
       website: "http://stupro.info",
     },
 
     skillSets: [
       "React",
-
       "TypeScript",
-
       "Node.js",
-
       "Python",
-
       "AWS",
-
       "Docker",
-
       "Art Designs",
-
       "Machine Learning",
-
       "Spring Boot",
-
       "Kali Linux",
-
       "Agile Methodologies",
-
       "GitHub",
-
       "CI/CD",
     ],
 
     inspirations: ["Nikola Tesla", "Akihiko Kayaba"],
 
     socialLinks: {
-      linkedIn: "https://linkedin.com/in/subash-natrayan-r-m",
-
-      gitHub: "https://github.com/subashnatrayan",
+      linkedIn: "https://www.linkedin.com/in/subash-natrayan-r-m-4654aa319",
+      gitHub: "https://github.com/Thunderscotch",
     },
   },
   {
