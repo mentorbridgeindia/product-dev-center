@@ -920,7 +920,7 @@ export const ProfilesList: ProfileData[] = [
     },
   },
   {
-    id: "subash",
+    id: "Subash",
 
     name: "Subash Natrayan",
 
