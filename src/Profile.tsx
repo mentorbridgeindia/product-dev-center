@@ -1,17 +1,16 @@
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import styled, { keyframes } from "styled-components";
+import {
+  BreadcrumbContainer,
+  BreadcrumbCurrent,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbSeparator,
+  fadeIn,
+} from "./BreadCrumbs";
 import { ProfilesList } from "./profiles";
-
-const fadeIn = keyframes`
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-`;
 
 const isDesktop = window.innerWidth > 1200;
 const isMobile = window.innerWidth < 600;
@@ -24,85 +23,6 @@ const slideIn = keyframes`
   to {
     opacity: 1;
     transform: translateX(0);
-  }
-`;
-
-const BreadcrumbContainer = styled.div`
-  padding: 1.5rem 2rem;
-  margin-bottom: 1rem;
-  background: rgba(255, 255, 255, 0.02);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-  animation: ${fadeIn} 0.5s ease-out;
-  display: flex;
-  justify-content: space-between;
-`;
-
-const BreadcrumbList = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  max-width: 1200px;
-  /* margin: 0 auto; */
-  justify-content: flex-start;
-`;
-
-const BreadcrumbItem = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-`;
-
-const BreadcrumbLink = styled.a`
-  color: #a8b2d1;
-  text-decoration: none;
-  font-size: 0.9rem;
-  padding: 0.5rem 0.8rem;
-  border-radius: 6px;
-  transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-
-  &:hover {
-    color: #64ffda;
-    background: rgba(100, 255, 218, 0.05);
-    transform: translateY(-1px);
-  }
-
-  &::before {
-    content: "⌂";
-    font-size: 1rem;
-    color: #64ffda;
-  }
-`;
-
-const BreadcrumbSeparator = styled.span`
-  color: rgba(255, 255, 255, 0.2);
-  font-size: 0.8rem;
-  display: flex;
-  align-items: center;
-
-  &::after {
-    content: "›";
-  }
-`;
-
-const BreadcrumbCurrent = styled.span`
-  color: #64ffda;
-  font-size: 0.9rem;
-  padding: 0.5rem 0.8rem;
-  background: rgba(100, 255, 218, 0.05);
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  border: 1px solid rgba(100, 255, 218, 0.1);
-
-  &::before {
-    content: "👤";
-    font-size: 1rem;
   }
 `;
 
@@ -208,17 +128,17 @@ const SectionTitle = styled.h3`
 
   &::before {
     content: "▹";
-    color: #64ffda;
+    color: #d53f8c;
   }
 `;
 
 const ExperienceItem = styled.div`
   margin-bottom: 2rem;
   padding: 1.5rem;
-  background: rgba(255, 255, 255, 0.03);
   border-radius: 15px;
   transition: all 0.3s ease;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: rgba(254, 204, 230, 0.1);
+  border: 1px solid rgba(254, 204, 230, 0.2);
 
   &:hover {
     transform: translateX(10px);
@@ -237,7 +157,7 @@ const Company = styled.h4`
 
 const ExperienceRole = styled.p`
   font-size: 1.1rem;
-  color: #64ffda;
+  color: #d53f8c;
   margin: 0 0 0.5rem 0;
   font-weight: 500;
 `;
@@ -256,7 +176,7 @@ const SkillsContainer = styled.div`
 
 const SkillTag = styled.span`
   background: rgba(100, 255, 218, 0.1);
-  color: #64ffda;
+  color: #d53f8c;
   padding: 0.6rem 1.2rem;
   border-radius: 25px;
   font-size: 0.9rem;
@@ -264,7 +184,7 @@ const SkillTag = styled.span`
   transition: all 0.3s ease;
 
   &:hover {
-    background: rgba(100, 255, 218, 0.2);
+    background: rgba(254, 204, 230, 0.2);
     transform: translateY(-2px);
   }
 `;
@@ -279,7 +199,7 @@ const InspirationItem = styled.li`
 
   &::before {
     content: "▹";
-    color: #64ffda;
+    color: #d53f8c;
   }
 `;
 
@@ -295,23 +215,23 @@ const SocialLink = styled.a`
   text-decoration: none;
   padding: 0.8rem 1.5rem;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.05);
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(254, 204, 230, 0.1);
+  border: 1px solid rgba(254, 204, 230, 0.2);
 
   &:hover {
-    background: rgba(100, 255, 218, 0.1);
-    color: #64ffda;
+    background: rgba(254, 204, 230, 0.2);
+    color: #d53f8c;
     transform: translateY(-2px);
   }
 `;
 
 const Email = styled.p`
   font-weight: 500;
-  color: #64ffda;
+  color: #d53f8c;
   margin: 1rem 0;
   display: flex;
   align-items: center;
@@ -325,8 +245,8 @@ const Email = styled.p`
 
 const DownloadButton = styled.button`
   background: transparent;
-  color: #64ffda;
-  border: 1px solid #64ffda;
+  color: #d53f8c;
+  border: 1px solid #d53f8c;
   padding: 0.8rem 1.5rem;
   border-radius: 8px;
   font-size: 1rem;
@@ -337,13 +257,13 @@ const DownloadButton = styled.button`
   gap: 0.5rem;
 
   &:hover {
-    background: rgba(100, 255, 218, 0.1);
+    background: rgba(254, 204, 230, 0.2);
     transform: translateY(-2px);
   }
 `;
 
 const WebsiteLink = styled.a`
-  color: #64ffda;
+  color: #d53f8c;
   text-decoration: none;
   font-size: 0.9rem;
   display: flex;
@@ -359,7 +279,6 @@ const WebsiteLink = styled.a`
 
 export const Profile = () => {
   const params = useParams();
-  if (!params.id) return <>No Profile found!</>;
   const profileData = ProfilesList.find((profile) => profile.id === params.id);
 
   const downloadResume = () => {
@@ -374,13 +293,19 @@ export const Profile = () => {
     }
   };
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  if (!params.id) return <>No Profile found!</>;
+
   return profileData ? (
     <div>
       <Container>
         <BreadcrumbContainer>
           <BreadcrumbList>
             <BreadcrumbItem>
-              <BreadcrumbLink href="/">Home</BreadcrumbLink>
+              <BreadcrumbLink href="/?tab=students">Home</BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
