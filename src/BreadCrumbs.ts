@@ -89,3 +89,20 @@ export const BreadcrumbCurrent = styled.span`
     font-size: 1rem;
   }
 `;
+
+export const BreadcrumbCurrentProduct = styled.span`
+  color: #d53f8c;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.8rem;
+  background: rgba(100, 255, 218, 0.05);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid rgba(100, 255, 218, 0.1);
+
+  &::before {
+    content: "💻";
+    font-size: 1rem;
+  }
+`;

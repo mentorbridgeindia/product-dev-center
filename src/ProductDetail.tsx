@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import styled, { keyframes } from "styled-components";
 import {
-  BreadcrumbCurrent,
+  BreadcrumbCurrentProduct,
   BreadcrumbItem,
   BreadcrumbLink,
   BreadcrumbList,
@@ -386,10 +386,6 @@ export const ProductDetail: React.FC = () => {
     );
   };
 
-  const goBack = () => {
-    navigate("/?tab=products");
-  };
-
   return (
     <Container>
       <NavContainer>
@@ -424,7 +420,9 @@ export const ProductDetail: React.FC = () => {
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
-              <BreadcrumbCurrent>{product.name}</BreadcrumbCurrent>
+              <BreadcrumbCurrentProduct>
+                {product.name}
+              </BreadcrumbCurrentProduct>
             </BreadcrumbItem>
           </BreadcrumbList>
           {/* <NavList> */}
