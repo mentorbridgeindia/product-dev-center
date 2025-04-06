@@ -15,7 +15,7 @@ const fadeIn = keyframes`
 const isDesktop = window.innerWidth > 1200;
 
 const Container = styled.div`
-  padding: 0 3rem;
+  padding: ${isDesktop ? "0 3rem" : "0"};
   min-height: 100vh;
 `;
 
@@ -45,7 +45,7 @@ const Paragraph = styled.p`
   line-height: 2.5;
   color: #000;
   margin-bottom: 1.5rem;
-  padding: 0 5rem;
+  padding: ${isDesktop ? "0 5rem" : "0"};
 `;
 
 const List = styled.ul`
@@ -96,6 +96,8 @@ const StatContainer = styled.div`
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
   margin: 3rem 0;
+  align-items: center;
+  justify-content: center;
 `;
 
 const StatBox = styled.div`
