@@ -58,7 +58,7 @@ export const ProfilesList: ProfileData[] = [
     ],
     mentorBridgeExp: {
       company: "Stublab",
-      role: "Co-Founder | Product Analyst",
+      role: "Co-Founder | Technical Analyst",
       summary:
         "<ul><li>Developed a service to render and send email templates </li><li>Created API documentation to facilitate easy understanding and implementation.</li><li>Enabled modular email customization for various use cases.</li></ul>",
       website: "https://www.stublab.in/",
@@ -558,7 +558,7 @@ export const ProfilesList: ProfileData[] = [
     id: "umar_farook",
     name: "Umar Farook J",
     picture: "png",
-    role: "Product Analyst",
+    role: "Frontend Dev Engineer | Technical Analyst",
     email: "umarfarookj06@gmail.com",
     summary:
       "<ul><li>A motivated and enthusiastic web development fresher with a strong foundation in HTML, CSS, JavaScript, and modern frameworks like React.js.</li><li>Passionate about building responsive, user-friendly web applications and eager to learn new technologies.</li><li>Seeking an entry-level position to leverage my skills in front-end development and contribute to innovative projects while growing professionally in a dynamic environment.</li></ul>",
@@ -719,7 +719,7 @@ export const ProfilesList: ProfileData[] = [
 
     picture: "jpg",
 
-    role: "Product Analyst",
+    role: "Backend Dev Engineer | Technical Analyst",
 
     email: "prasannap0218@gmail.com",
 
@@ -740,7 +740,7 @@ export const ProfilesList: ProfileData[] = [
     mentorBridgeExp: {
       company: "Securosphere",
 
-      role: "Co-Founder | Product Analyst",
+      role: "Co-Founder | Technical Analyst",
 
       summary:
         "<ul><li>Collaborated across frontend and backend teams to analyze user journeys and system performance, improving overall platform efficiency.</li><li>Prepared detailed API documentation to support data integration and ensure clarity for development teams.</li></ul>",
@@ -872,7 +872,7 @@ export const ProfilesList: ProfileData[] = [
     id: "meena",
     name: "Meena S",
     picture: "jpg",
-    role: "Mobile Application Developer | Product Analyst",
+    role: "Mobile Application Developer | Technical Analyst",
     email: "meenasivakumar44@gmail.com",
     summary:
       "<ul><li>Passionate and detail-oriented Mobile App Developer with expertise in Flutter, React Native, and Java. Experienced in building scalable applications, integrating APIs, and working with Firebase for real-time data management.</li></ul>",
@@ -895,7 +895,7 @@ export const ProfilesList: ProfileData[] = [
     ],
     mentorBridgeExp: {
       company: "StuPro",
-      role: "Co-Founder | Product Analyst",
+      role: "Co-Founder | Technical Analyst",
       summary:
         "<ul><li>Designed and developed the Feedback Page, enabling users to submit feedback seamlessly. Created the Change Password Page with secure validation and API integration.Resolved UI/UX issues and optimized the interface for a better user experience. Developed a secure API for user authentication via OTP validation. Created an endpoint to store user feedback in the database.Automated the retrieval of AI-generated daily challenges, coding tasks, quizzes, and tech facts.Implemented a cron scheduler to fetch and store this data periodically in MongoDB.</li></ul>",
 
@@ -920,7 +920,7 @@ export const ProfilesList: ProfileData[] = [
     },
   },
   {
-    id: "subash",
+    id: "Subash",
 
     name: "Subash Natrayan",
 
@@ -1153,5 +1153,45 @@ export const ProfilesList: ProfileData[] = [
       website: "",
     },
     experience: [],
+  },
+  {
+    id: "Santhana_Kaleeswari_S",
+    name: "Santhana Kaleeswari S",
+    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    role: "Mobile App Developer",
+    email: "kaleeswari3167@gmail.com",
+    summary:
+      "<ul><li>A Proficient in React Native with hands-on experience in Flutter for mobile app development, along with JavaScript, HTML, and CSS.Passionate about mobile app development and UI/UX design, focusingon building scalable, high-performance, and user-friendly applications.</li></ul>",
+    experience: [
+      {
+        company: "Accent Techno Soft",
+        role: "Mobile App Developer",
+        summary:
+          "<ul><li>Designed product interfaces and user flows, contributing to the overall user experience of the platform.</li><li>Gained hands on knowledge in mobile app development framework.Developed mobile applications using flutter and sqlite</li></ul>",
+        website: "http://stupro.info",
+      },
+    ],
+    mentorBridgeExp: {
+      company: "StuPro",
+      role: "Co-Founder | Mobile App Developer",
+      summary:
+        "<ul><li>Designed product interfaces and user flows, contributing to the overall user experience of the platform.</li><li>UI Design using Figma and User Experience.Worked on Front end using React Native</li></ul>",
+      website: "http://stupro.info",
+    },
+    skillSets: [
+      "React",
+      "TypeScript",
+      "React native",
+      "Flutter",
+      "Html",
+      "CSS",
+      "Js",
+    ],
+    inspirations: ["APJ Abdul Kalam"],
+    socialLinks: {
+      linkedIn:
+        "https://www.linkedin.com/in/santhana-kaleeswari-seenivasan-17082b293",
+      gitHub: "https://github.com/santhanakaleeswari",
+    },
   },
 ];

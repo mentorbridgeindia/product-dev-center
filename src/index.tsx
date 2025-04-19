@@ -5,10 +5,12 @@ import "./index.css";
 import { Listing } from "./Listing";
 import "./App.css";
 import { Profile } from "./Profile";
+import { Analytics } from "@vercel/analytics/react";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
+
 root.render(
   <React.StrictMode>
     <BrowserRouter>
@@ -17,5 +19,6 @@ root.render(
         <Route path="/:id" element={<Profile />} />
       </Routes>
     </BrowserRouter>
+    <Analytics />
   </React.StrictMode>
 );
