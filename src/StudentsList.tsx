@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styled, { keyframes } from "styled-components";
+import { Header, Subtitle } from "./Products";
 import { ProfileData } from "./Profile.types";
 import { ProfilesList } from "./profiles";
 
@@ -16,17 +17,9 @@ interface Theme {
 }
 
 const isDesktop = window.innerWidth > 1024;
-const isMobile = window.innerWidth < 474;
 
 declare module "styled-components" {
   export interface DefaultTheme extends Theme {}
-}
-
-interface Person {
-  id: string;
-  name: string;
-  role: string;
-  imageUrl: string;
 }
 
 const fadeIn = keyframes`
@@ -50,14 +43,6 @@ const pulse = keyframes`
   100% {
     transform: scale(1);
   }
-`;
-
-const Container = styled.div`
-  max-width: ${isDesktop ? "90%" : "100%"};
-  margin: 0 auto;
-  padding: ${isDesktop ? "2rem" : "0"};
-  margin-bottom: 3rem;
-  min-height: 100vh;
 `;
 
 const Card = styled.div`
@@ -191,7 +176,7 @@ const PersonItem: React.FC<{ person: ProfileData }> = ({ person }) => (
   </Card>
 );
 
-export const Listing: React.FC = () => {
+export const StudentsList: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [filterRole, setFilterRole] = useState("");
 
@@ -209,54 +194,43 @@ export const Listing: React.FC = () => {
   });
 
   return (
-    <Container>
-      <div className="d-flex justify-content-center align-items-center gap-3 mb-3">
-        <img
-          src="https://ssmiet.ac.in/images/logo.png"
-          alt="ssmiet"
-          className="logo"
-        />
-        <img
-          src="https://www.mentorbridge.in/_next/static/media/icon-logo-horizontal.2500857b.svg"
-          className="logo"
-          alt="mentorbridge"
-        />
-      </div>
-      <div className="list">
-        <SearchContainer>
-          <div
-            style={{
-              display: "flex",
-              gap: "1rem",
-              marginBottom: "1rem",
-              flexDirection: isDesktop ? "row" : "column",
-            }}
+    <>
+      <Header>
+        <Subtitle>Students participating in the program</Subtitle>
+      </Header>
+      <SearchContainer>
+        <div
+          style={{
+            display: "flex",
+            gap: "1rem",
+            marginBottom: "1rem",
+            flexDirection: isDesktop ? "row" : "column",
+          }}
+        >
+          <SearchInput
+            type="text"
+            placeholder="Search by name..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+          <FilterSelect
+            value={filterRole}
+            onChange={(e) => setFilterRole(e.target.value)}
           >
-            <SearchInput
-              type="text"
-              placeholder="Search by name..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-            />
-            <FilterSelect
-              value={filterRole}
-              onChange={(e) => setFilterRole(e.target.value)}
-            >
-              <option value="">All Roles</option>
-              <option value="Analyst">Product Analyst</option>
-              <option value="UX">UI/UX Designer</option>
-              <option value="Frontend">Frontend Dev Engineer</option>
-              <option value="Backend">Backend Dev Engineer</option>
-              <option value="mobile">Mobile App Developer</option>
-            </FilterSelect>
-          </div>
-        </SearchContainer>
-        <List>
-          {filteredData.map((person) => (
-            <PersonItem key={person.id} person={person} />
-          ))}
-        </List>
-      </div>
-    </Container>
+            <option value="">All Roles</option>
+            <option value="Analyst">Product Analyst</option>
+            <option value="UX">UI/UX Designer</option>
+            <option value="Frontend">Frontend Dev Engineer</option>
+            <option value="Backend">Backend Dev Engineer</option>
+            <option value="mobile">Mobile App Developer</option>
+          </FilterSelect>
+        </div>
+      </SearchContainer>
+      <List>
+        {filteredData.map((person) => (
+          <PersonItem key={person.id} person={person} />
+        ))}
+      </List>
+    </>
   );
 };

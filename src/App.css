@@ -76,6 +76,7 @@ ul li {
   }
   font-size: 1rem;
   line-height: 2rem;
+  margin: 1rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -85,4 +86,18 @@ ul li {
       margin-bottom: 1rem;
     }
   }
+}
+
+h1,
+h2 {
+  margin-bottom: 2rem;
+}
+
+p {
+  padding-left: 1rem;
+}
+
+.link {
+  color: #d53f8c;
+  text-decoration: underline;
 }
