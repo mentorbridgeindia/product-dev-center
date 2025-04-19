@@ -5,9 +5,7 @@ import "./index.css";
 import { Listing } from "./Listing";
 import "./App.css";
 import { Profile } from "./Profile";
-import { Products } from "./Products";
-import { ProductDetail } from "./ProductDetail";
-import { About } from "./About";
+import { Analytics } from "@vercel/analytics/react";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -17,11 +15,9 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="" element={<Listing />} />
-        <Route path="/about" element={<About />} />
         <Route path="/:id" element={<Profile />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/products/:id" element={<ProductDetail />} />
       </Routes>
     </BrowserRouter>
+    <Analytics />
   </React.StrictMode>
 );
