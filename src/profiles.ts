@@ -1118,7 +1118,7 @@ export const ProfilesList: ProfileData[] = [
   {
     id: "Santhana_Kaleeswari_S",
     name: "Santhana Kaleeswari S",
-    picture: "https://randomuser.me/api/portraits/men/1.jpg",
+    picture: "jpg",
     role: "Mobile App Developer",
     email: "kaleeswari3167@gmail.com",
     summary:
