@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { About } from "./About";
 import { Products } from "./Products";
 import { StudentsList } from "./StudentsList";
+import { Mentors } from "./Mentors";
 
 interface Theme {
   colors: {
@@ -77,14 +78,14 @@ const ContentContainer = styled.div`
 
 export const Listing: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams();
-  const [activeTab, setActiveTab] = useState<"students" | "products" | "about">(
-    "students"
-  );
+  const [activeTab, setActiveTab] = useState<
+    "students" | "products" | "about" | "mentors"
+  >("students");
 
   useEffect(() => {
     const tab = searchParams.get("tab");
     if (tab) {
-      setActiveTab(tab as "students" | "products" | "about");
+      setActiveTab(tab as "students" | "products" | "about" | "mentors");
     }
   }, [searchParams]);
 
@@ -126,12 +127,19 @@ export const Listing: React.FC = () => {
           >
             Products
           </Tab>
+          <Tab
+            active={activeTab === "mentors"}
+            onClick={() => setActiveTab("mentors")}
+          >
+            Mentors
+          </Tab>
         </TabContainer>
 
         <ContentContainer>
           {activeTab === "students" && <StudentsList />}
           {activeTab === "products" && <Products />}
           {activeTab === "about" && <About />}
+          {activeTab === "mentors" && <Mentors />}
         </ContentContainer>
       </div>
     </Container>
