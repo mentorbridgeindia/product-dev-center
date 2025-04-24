@@ -196,7 +196,7 @@ export const StudentsList: React.FC = () => {
   return (
     <>
       <Header>
-        <Subtitle>Students participating in the program</Subtitle>
+        <Subtitle>Students participated in the program</Subtitle>
       </Header>
       <SearchContainer>
         <div
@@ -218,7 +218,7 @@ export const StudentsList: React.FC = () => {
             onChange={(e) => setFilterRole(e.target.value)}
           >
             <option value="">All Roles</option>
-            <option value="Analyst">Product Analyst</option>
+            <option value="Analyst">Technical Analyst</option>
             <option value="UX">UI/UX Designer</option>
             <option value="Frontend">Frontend Dev Engineer</option>
             <option value="Backend">Backend Dev Engineer</option>
