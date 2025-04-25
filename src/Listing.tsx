@@ -37,6 +37,11 @@ const TabContainer = styled.div`
   justify-content: center;
   margin-bottom: 2rem;
   gap: 1rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 const Tab = styled.button<{ active: boolean }>`

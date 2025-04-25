@@ -13,10 +13,9 @@ const fadeIn = keyframes`
 `;
 
 const Container = styled.div`
-  padding: 2rem;
   min-height: 100vh;
-  max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 5rem;
 `;
 
 const Title = styled.h1`
@@ -255,6 +254,10 @@ const EducationDescription = styled.p`
 const FlexBox = styled.div`
   display: flex;
   gap: 1rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const List = styled.ul`
@@ -398,7 +401,9 @@ const mentors: Mentor[] = [
     ],
     inspirations: [
       "Methagu Vellupillai Prabhakaran",
-      "J.Jayalalitha",
+      "King Maker Kamaraj",
+      "Lee Kuan Yew",
+      "Selvi J. Jayalalitha",
       "Adolf Hitler",
     ],
   },

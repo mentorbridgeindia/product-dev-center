@@ -14,7 +14,9 @@ const fadeIn = keyframes`
   }
 `;
 
-const Container = styled.div``;
+const Container = styled.div`
+  margin-bottom: 5rem;
+`;
 
 export const Header = styled.div`
   text-align: center;

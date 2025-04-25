@@ -18,8 +18,9 @@ const isDesktop = window.innerWidth > 1200;
 const Container = styled.div`
   padding: ${isDesktop ? "0 3rem" : "0"};
   min-height: 100vh;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
+  margin-bottom: 5rem;
 `;
 
 const Section = styled.section`

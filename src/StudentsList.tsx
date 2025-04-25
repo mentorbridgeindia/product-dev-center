@@ -143,6 +143,10 @@ const SearchInput = styled.input`
   }
 `;
 
+const Container = styled.div`
+  margin-bottom: 5rem;
+`;
+
 const FilterSelect = styled.select`
   width: 100%;
   padding: 1rem;
@@ -194,7 +198,7 @@ export const StudentsList: React.FC = () => {
   });
 
   return (
-    <>
+    <Container>
       <Header>
         <Subtitle>Students participated in the program</Subtitle>
       </Header>
@@ -231,6 +235,6 @@ export const StudentsList: React.FC = () => {
           <PersonItem key={person.id} person={person} />
         ))}
       </List>
-    </>
+    </Container>
   );
 };
