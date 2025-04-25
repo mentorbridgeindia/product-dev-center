@@ -411,7 +411,8 @@ const mentors: Mentor[] = [
     id: "dhileepan-dhanapal",
     name: "Dhileepan Dhanapal",
     title: "Senior Specialist - Cloud | Mentor",
-    image: "https://secure.gravatar.com/avatar/default?s=400&d=identicon",
+    image:
+      "https://wfkq0nguanh0273r.public.blob.vercel-storage.com/dhileepan.jpg",
     bio: "A seasoned software engineer with over a decade of experience in enterprise application development. Specialized in Java, Spring, and cloud technologies with extensive experience in both European and Indian markets.",
     about:
       "Dhileepan has built a successful career spanning multiple countries and industries, working with leading organizations in both Europe and India. His expertise in Java, Spring, and cloud technologies, combined with his experience in mentoring, makes him an invaluable guide for students entering the IT industry.",
