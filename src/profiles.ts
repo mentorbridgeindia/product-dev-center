@@ -339,7 +339,7 @@ export const ProfilesList: ProfileData[] = [
     id: "Sakthi_Priya_S",
     name: "Sakthi Priya S",
     picture: "jpg",
-    role: "UI/UX design",
+    role: "Frontend Dev Engineer",
     email: "sakthikannan823@gmail.com",
     summary:
       "<ul><li> A frontend developer passionate about creating user-friendly interfaces. I specialize in  React Native and UI/UX design, focusing on building smooth and engaging digital experiences..</li><li> Currently, I contribute to StuPro, a platform that helps students transition into professionals. My role involves frontend development, UI enhancements, and product marketing to make the platform more intuitive and effective.</li></ul>",
